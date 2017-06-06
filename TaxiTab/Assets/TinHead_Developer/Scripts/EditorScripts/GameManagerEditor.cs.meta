@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 4ce379d82b2b380429144af8875a9814
+timeCreated: 1490089690
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - MolevLogo: {fileID: 2800000, guid: cf4c899b7ed8ce64297ac3cd14146a7f, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
