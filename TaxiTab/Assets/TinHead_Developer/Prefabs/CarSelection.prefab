@@ -1755,11 +1755,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1928006338993198}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc9aaf11f1352fb4fb671e6761bedfe3, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c5335f0882fe4d478883cc8c58ce906, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Cars: []
-  Cam: {fileID: 0}
+  target: {fileID: 0}
 --- !u!114 &114621223734323624
 MonoBehaviour:
   m_ObjectHideFlags: 1

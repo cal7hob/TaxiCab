@@ -154,6 +154,7 @@
      <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\CarSelection.cs" />
      <Compile Include="Assets\TinHead_Developer\PathSystem\MolevPathEditor.cs" />
      <Compile Include="Assets\TinHead_Developer\PathSystem\PathMovement.cs" />
      <Compile Include="Assets\TinHead_Developer\PathSystem\PathToFollow.cs" />
@@ -230,7 +231,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="iTSMain">
- <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
+ <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiCab/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

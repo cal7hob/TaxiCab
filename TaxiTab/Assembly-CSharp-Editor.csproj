@@ -91,7 +91,7 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiTab/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiCab/TaxiTab/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -157,10 +157,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="iTSEditor">
- <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiTab/Assets/iTS/Traffic System/Scripts/Editor/iTSEditor.dll</HintPath>
+ <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiCab/TaxiTab/Assets/iTS/Traffic System/Scripts/Editor/iTSEditor.dll</HintPath>
  </Reference>
  <Reference Include="iTSMain">
- <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
+ <HintPath>C:/Users/Anjum/Documents/UnityProjects/TaxiCab/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
