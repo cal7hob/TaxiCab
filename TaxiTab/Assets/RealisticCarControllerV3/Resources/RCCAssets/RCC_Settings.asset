@@ -14,7 +14,7 @@ MonoBehaviour:
   toolbarSelectedIndex: 0
   fixedTimeStep: 0.02
   maxAngularVelocity: 8
-  behaviorType: 3
+  behaviorType: 5
   useFixedWheelColliders: 1
   controllerType: 0
   verticalInput: Vertical

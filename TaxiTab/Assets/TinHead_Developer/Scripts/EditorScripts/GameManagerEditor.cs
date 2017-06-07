@@ -102,7 +102,7 @@ namespace TinHead_Developer
 										GameManagePrefab.Gameplaylevel[i].IsDestination = EditorGUILayout.Toggle("Contains destination?", GameManagePrefab.Gameplaylevel[i].IsDestination);
 										if (GameManagePrefab.Gameplaylevel[i].IsDestination)
                                         {
-											GameManagePrefab.Gameplaylevel[i].Destination = (Transform)EditorGUILayout.ObjectField("SpawnPoint", GameManagePrefab.Gameplaylevel[i].Destination, typeof(Transform), true, GUILayout.Width(300));
+											GameManagePrefab.Gameplaylevel[i].Destination = (Transform)EditorGUILayout.ObjectField("Destination", GameManagePrefab.Gameplaylevel[i].Destination, typeof(Transform), true, GUILayout.Width(300));
                                         }
 										GameManagePrefab.Gameplaylevel[i].TimeBased = EditorGUILayout.Toggle("Time based?", GameManagePrefab.Gameplaylevel[i].TimeBased);
 										GameManagePrefab.Gameplaylevel[i].Objective = EditorGUILayout.IntField("Objectives", GameManagePrefab.Gameplaylevel[i].Objective, GUILayout.Width(200f));

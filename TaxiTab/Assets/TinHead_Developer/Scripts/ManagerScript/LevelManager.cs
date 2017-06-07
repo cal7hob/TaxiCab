@@ -18,7 +18,7 @@ namespace TinHead_Developer
         private int CurrentTime;
         private int minutes;
         private int seconds;
-
+		public RCC_Camera Camera;
         public InGameUi InGameUi;
 
         public int objective
@@ -69,15 +69,19 @@ namespace TinHead_Developer
         public void PlaceStartingData()
         {         
             //Player StartingData
-
+			CurrentPlayer=GameManager.Instance.SelectedCar;
             GameObject Player = Instantiate(Players[CurrentPlayer]);
+			Camera.playerCar = Player.transform;
             if (GameManager.Instance.Gameplaylevel[GameManager.Instance.level].IsPlayerSpawn == true)
             {
                 Player.transform.position = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].SpawnPoint.transform.position;
                 Player.transform.rotation = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].SpawnPoint.transform.rotation;
-                GameObject G = Instantiate(Destination);
-                G.transform.position= GameManager.Instance.Gameplaylevel[GameManager.Instance.level].Destination.transform.position;
+
             }
+			if (GameManager.Instance.Gameplaylevel [GameManager.Instance.level].IsDestination == true) {
+				GameObject G = Instantiate(Destination);
+				G.transform.position= GameManager.Instance.Gameplaylevel[GameManager.Instance.level].Destination.transform.position;
+			}
 
             //TimeStartingData
 
@@ -162,6 +166,18 @@ namespace TinHead_Developer
         {
 
         }
+		public void Restart(){
+
+		}
+		public void Resume(){
+
+		}
+		public void Pause(){
+		}
+		public void MainMenu(){
+
+
+		}
 
     }
 }

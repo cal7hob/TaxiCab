@@ -76,7 +76,9 @@
      <None Include="Assets\iTS\Demo\Source Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\SimplePeople\Changelog.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\SimpleRacer\_FX\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />

@@ -17,6 +17,9 @@ namespace TinHead_Developer
 		public bool LevelSelectionLockCoinBased = false;
 
 		[HideInInspector]
+		public int SelectedCar=0;
+
+		[HideInInspector]
 		public bool GameContainsRewardedVideo = false;
 
         [HideInInspector]
@@ -28,10 +31,6 @@ namespace TinHead_Developer
         public int CurrentScene = 0;
         public GameObject[] Scenes;
         private static GameManager instance = null;
-
-        [HideInInspector]
-        internal int SelectedCar = 0;
-
         public static GameManager Instance
         {
             get
@@ -43,7 +42,6 @@ namespace TinHead_Developer
                 return instance;
             }
         }
-
         public void Awake()
         {
             if (instance)
