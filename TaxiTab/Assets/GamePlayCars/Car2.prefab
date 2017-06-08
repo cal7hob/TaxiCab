@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4229029072928960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,7 +36,7 @@ GameObject:
   - component: {fileID: 4623448463446244}
   - component: {fileID: 146484923588623774}
   - component: {fileID: 114247430019540710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51,7 +51,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4706144761918640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wheel Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ GameObject:
   - component: {fileID: 4208790943527928}
   - component: {fileID: 146634340671857218}
   - component: {fileID: 114106929461952626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   - component: {fileID: 4388833548569708}
   - component: {fileID: 33381602775580814}
   - component: {fileID: 23935700143529522}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 4847970869843914}
   - component: {fileID: 146003045777337392}
   - component: {fileID: 114505286531873134}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 4057600629726588}
   - component: {fileID: 33906002076355348}
   - component: {fileID: 23113099260341388}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 4608560300633734}
   - component: {fileID: 33619988083820064}
   - component: {fileID: 23234233955391926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 4600141384019464}
   - component: {fileID: 33616452245232820}
   - component: {fileID: 23609074177746846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4107609062153362}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wheel Models
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,7 +188,7 @@ GameObject:
   - component: {fileID: 54954428736525370}
   - component: {fileID: 114956863780897886}
   - component: {fileID: 65843384751058038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Car2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -205,7 +205,7 @@ GameObject:
   - component: {fileID: 4774899249179750}
   - component: {fileID: 146077504480408748}
   - component: {fileID: 114000430401340190}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_Wheel_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -220,7 +220,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4955210596383898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: COM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ MonoBehaviour:
   highBeamHeadLightsOn: 0
   indicatorsOn: 0
   indicatorTimer: 0
-  useDamage: 1
+  useDamage: 0
   deformableMeshFilters: []
   randomizeVertices: 1
   damageRadius: 0.5

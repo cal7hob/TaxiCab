@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4515284385293550}
   - component: {fileID: 33255552330119044}
   - component: {fileID: 23452522721409498}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4834268756077400}
   - component: {fileID: 146359838019573212}
   - component: {fileID: 114206189521863352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4788305356074752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: COM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 4144935628813508}
   - component: {fileID: 146335088380591890}
   - component: {fileID: 114829743375702650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85,7 +85,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4337979682592036}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wheel Models
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 4194935145541868}
   - component: {fileID: 33888337786458318}
   - component: {fileID: 23260752445393254}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4645500075800176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wheel Colliders
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 4643975440269710}
   - component: {fileID: 146524062528245154}
   - component: {fileID: 114855409079669368}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 65519334933635706}
   - component: {fileID: 114253931049513774}
   - component: {fileID: 65327168784887662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Car1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 4385806831256532}
   - component: {fileID: 33307803988263894}
   - component: {fileID: 23353087865374372}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_RL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 4683867622271808}
   - component: {fileID: 33697460558572016}
   - component: {fileID: 23862618911711648}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4074413517490088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Chassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 4222933147937692}
   - component: {fileID: 146898581191840404}
   - component: {fileID: 114284717637136962}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SR_Veh_MuscleCar_Wheel_RR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -908,7 +908,7 @@ MonoBehaviour:
   highBeamHeadLightsOn: 0
   indicatorsOn: 0
   indicatorTimer: 0
-  useDamage: 1
+  useDamage: 0
   deformableMeshFilters: []
   randomizeVertices: 1
   damageRadius: 0.5
