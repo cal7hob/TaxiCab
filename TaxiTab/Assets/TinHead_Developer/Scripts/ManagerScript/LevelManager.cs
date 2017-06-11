@@ -7,6 +7,19 @@ namespace TinHead_Developer
 {
     public class LevelManager : MonoBehaviour
     {
+        private static LevelManager instance = null;
+        public static LevelManager Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = FindObjectOfType<LevelManager>();
+                }
+                return instance;
+            }
+        }
+
         public GameState GameStatus;
 
         public GameObject[] Players;
@@ -20,6 +33,12 @@ namespace TinHead_Developer
         private int seconds;
 		public RCC_Camera Camera;
         public InGameUi InGameUi;
+
+
+        public void TimeDecrement()
+        {
+            seconds = seconds - 10;
+        }
 
         public int objective
         {

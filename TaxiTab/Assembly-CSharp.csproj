@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PickUpPassengers.cs" />
+     <Compile Include="Assets\PlayerManager.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCHoodCamera.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCResetScene.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCWheelCamera.cs" />
@@ -156,6 +156,10 @@
      <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Scripts\CarSelection.cs" />
+     <Compile Include="Assets\Scripts\DropPoint.cs" />
+     <Compile Include="Assets\Scripts\PassengerManager.cs" />
+     <Compile Include="Assets\Scripts\PickUpPassengers.cs" />
+     <Compile Include="Assets\Scripts\PickUpPoint.cs" />
      <Compile Include="Assets\TinHead_Developer\PathSystem\MolevPathEditor.cs" />
      <Compile Include="Assets\TinHead_Developer\PathSystem\PathMovement.cs" />
      <Compile Include="Assets\TinHead_Developer\PathSystem\PathToFollow.cs" />

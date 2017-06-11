@@ -135,9 +135,10 @@ GameObject:
   - component: {fileID: 65578665431238070}
   - component: {fileID: 54686790777731234}
   - component: {fileID: 114068970228369694}
+  - component: {fileID: 114559454997407296}
   m_Layer: 8
   m_Name: Car004
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -971,6 +972,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wheelModel: {fileID: 0}
   camber: 0
+--- !u!114 &114559454997407296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1604612751745164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5308e8bf0b2e95e4b8e5e2c26417144f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114616677367736810
 MonoBehaviour:
   m_ObjectHideFlags: 1

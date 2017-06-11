@@ -6,6 +6,8 @@ TagManager:
   tags:
   - TrafficCar
   - Traffic
+  - Pickup
+  - DropPoint
   layers:
   - Default
   - TransparentFX
