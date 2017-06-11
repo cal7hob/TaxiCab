@@ -61,7 +61,7 @@ namespace TinHead_Developer
             M_SceneManager = new SceneLoader();
 
             //when the game run for the first time
-           if (Preferences.Instance.firsttime)
+      //     if (Preferences.Instance.firsttime)
                 SetLevelPref();
             
             //instantitates a scene when the game game loads first time in everyplay
@@ -88,7 +88,7 @@ namespace TinHead_Developer
         }
       void SetLevelPref()
         {
-            for (int i = 0; i <TotalScene; i++)
+            for (int i = 1; i <TotalScene; i++)
             {
                 if (Gameplaylevel[i].LevelLocked)
                 {
@@ -101,6 +101,7 @@ namespace TinHead_Developer
                 }
             }
             Preferences.Instance.firsttime = false;
+			PlayerPrefs.Save ();
         }
 
 

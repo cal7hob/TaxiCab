@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 92431140724423012}
   - component: {fileID: 124144422968607270}
   - component: {fileID: 81776362597256532}
+  - component: {fileID: 114552495497157038}
   m_Layer: 0
   m_Name: RCCMainCamera
   m_TagString: Untagged
@@ -177,22 +178,6 @@ GameObject:
   m_Layer: 5
   m_Name: NotEnoughCoins
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1241407932865320
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4432431977180994}
-  - component: {fileID: 114100296039797932}
-  m_Layer: 0
-  m_Name: TrafficSpawner
-  m_TagString: Traffic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -864,7 +849,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224297720591037338}
-  - {fileID: 4432431977180994}
   - {fileID: 4999619876781868}
   - {fileID: 4742575083902534}
   m_Father: {fileID: 0}
@@ -876,24 +860,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1640032368606932}
-  m_LocalRotation: {x: 0, y: 0, z: 0.15690848, w: 0.98761314}
-  m_LocalPosition: {x: -41, y: 48, z: -32}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4742575083902534}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 18.055}
---- !u!4 &4432431977180994
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1241407932865320}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -245, y: 0, z: 68}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4038585962636158}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4556306374656140
@@ -930,13 +901,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1244140088734098}
   m_LocalRotation: {x: 0.10817463, y: -0.38361233, z: 0.04530168, w: 0.91601723}
-  m_LocalPosition: {x: 1103.4818, y: 107.39786, z: 640.3984}
+  m_LocalPosition: {x: -223, y: 34, z: -138}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4621332473008938}
   - {fileID: 4173873253498450}
   m_Father: {fileID: 4038585962636158}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4999619876781868
 Transform:
@@ -949,7 +920,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4038585962636158}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20538309831231262
 Camera:
@@ -968,7 +939,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 500
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -981,7 +952,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -63889,55 +63860,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114100296039797932
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1241407932865320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -260812457, guid: ac3101a53374db749b8f8f604905610e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initializeOnStart: 1
-  cars:
-  - cars: {fileID: 100032, guid: fb395460b23c43843ba1104c553bf743, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: 014e5c7cd30a8ee439e94c65c0cee51d, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: d9ff19eaaaeb40e4cb96e6eec6e2a407, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: f4fc48b3e6470bf448233c2efdb11510, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: 25cc83db12a6aa5438886b81af06b084, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: 5c10d11c2e2e4364a938aedce302a425, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: 2f2ea2673b5820c40a92379b7add68af, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: 91614ad4792ac54448463c6d4db12352, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: ac417e4d730b9af46bdbf149669c1a5b, type: 2}
-    frequency: 2
-  - cars: {fileID: 100032, guid: 18d3b33b02086b64f88dbfec67c866a6, type: 2}
-    frequency: 0
-  totalAmountOfCars: 50
-  amount: 50
-  maxDistance: 200
-  offset: 140
-  closerRange: 25
-  refreshTime: 0.02
-  manager: {fileID: 114020592706488816}
-  unusedCarsPosition: {x: 50000, y: 50000, z: 50000}
-  respawnIfUpSideDown: 0
-  respawnUpSideDownTime: 2
-  respawnAltitude: 0.3
-  disableMultiThreading: 0
-  globalPointOffset: {x: 0, y: 0, z: 0}
-  carsCheckedPerFrame: 50
-  initialNotSpawningRadius: 10
-  transformSpawningCheck: []
 --- !u!114 &114118227900758568
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -64920,6 +64842,54 @@ MonoBehaviour:
   m_Text: 'Tap to continue
 
 '
+--- !u!114 &114552495497157038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173330995582478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9e31fdf962e3e4ca3b62ec3ecc2f4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Tonemapper: 0
+  Exposure: 1
+  LinearWhitePoint: 11.2
+  ApplyDithering: 0
+  QualityLevel: 0
+  BlendAmount: 0.5
+  LutTexture: {fileID: 2800000, guid: 1df849adde279de49918e15dbec5bf7e, type: 3}
+  LutBlendTexture: {fileID: 0}
+  MaskTexture: {fileID: 0}
+  UseDepthMask: 0
+  DepthMaskCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  UseVolumes: 0
+  ExitVolumeBlendTime: 1
+  TriggerVolumeProxy: {fileID: 0}
+  VolumeCollisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  EffectFlags:
+    components: []
+  sharedInstanceID: 7ace2c03-aea6-46ee-a0ef-ffe964ca5478
 --- !u!114 &114583138609869458
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65475,20 +65445,20 @@ MonoBehaviour:
     frequency: 3
   - cars: {fileID: 100136, guid: c3a883bec06abf542a4200fa8d02567e, type: 2}
     frequency: 5
-  totalAmountOfCars: 50
-  amount: 100
-  maxDistance: 200
+  totalAmountOfCars: 10
+  amount: 20
+  maxDistance: 50
   offset: 50
-  closerRange: 50
+  closerRange: 100
   refreshTime: 0.02
-  manager: {fileID: 0}
+  manager: {fileID: 114020592706488816}
   unusedCarsPosition: {x: 50000, y: 50000, z: 50000}
   respawnIfUpSideDown: 1
   respawnUpSideDownTime: 5
   respawnAltitude: 0.3
   disableMultiThreading: 0
   globalPointOffset: {x: 0, y: 0, z: 0}
-  carsCheckedPerFrame: 50
+  carsCheckedPerFrame: 10
   initialNotSpawningRadius: 10
   transformSpawningCheck: []
 --- !u!114 &114878569264573892
