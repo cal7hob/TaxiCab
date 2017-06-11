@@ -15,12 +15,11 @@ public class PickUpPoint : MonoBehaviour {
 	}
     void OnTriggerEnter(Collider other)
     {
-       
-            
         if (other.gameObject.tag == "Player")
         {
             Debug.Log("hi");
             PassengerManager.Instance.DroppingPoint.SetActive(true);
+            this.gameObject.SetActive(false);
         }
     }
 }

@@ -37,7 +37,9 @@ namespace TinHead_Developer
 
         public void TimeDecrement()
         {
-            seconds = seconds - 10;
+            Debug.Log("Time Decrement Called");
+            //seconds -= 10;
+            CurrentTime -= 10;
         }
 
         public int objective

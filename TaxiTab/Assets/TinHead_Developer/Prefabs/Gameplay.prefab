@@ -64008,8 +64008,8 @@ MonoBehaviour:
     totalOcupation: 0
     totalDistance: 38.135212
     maxTotalOcupation: 75
-  menuSelection: 0
-  laneMenuSelection: 2
+  menuSelection: 2
+  laneMenuSelection: 3
   connectionsMenuSelection: 0
   settingsMenuSelection: 0
   visualLinesWidth: 5
@@ -64017,9 +64017,11 @@ MonoBehaviour:
   resolutionConnectors: 2.3
   laneCurveSpeedMultiplier: 0.7
   connectorsCurveSpeedMultiplier: 0.7
-  defaultVehicleType: -1
+  defaultVehicleType: -244
   junctionsProcessed: 1
-  vehicleTypePresets: []
+  vehicleTypePresets:
+  - vehicleType: -244
+    name: 'Light Medium '
   scaleFactor: 1
 --- !u!114 &114026685855041708
 MonoBehaviour:

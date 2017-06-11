@@ -2,23 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DropPoint : MonoBehaviour {
+public class DropPoint : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-           PassengerManager.Instance.droppedPassengers++;
-            Debug.Log( PassengerManager.Instance.droppedPassengers);
+            PassengerManager.Instance.route++;
+            PassengerManager.Instance.singleInstance = true;
+            PassengerManager.Instance.droppedPassengers++;
+            Debug.Log(PassengerManager.Instance.droppedPassengers);
         }
     }
 
