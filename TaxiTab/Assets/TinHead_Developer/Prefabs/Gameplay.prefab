@@ -32412,10 +32412,10 @@ MonoBehaviour:
           pointIndex: 4
         - lane: 138
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
         - lane: 138
           connector: 0
-          pointIndex: 2
+          pointIndex: 3
         - lane: 138
           connector: 1
           pointIndex: 1
@@ -47067,7 +47067,7 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 123
           connector: 1
-          pointIndex: 4
+          pointIndex: 7
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -395.85486, y: -0.111367226, z: 232.40253}
@@ -47086,6 +47086,9 @@ MonoBehaviour:
         - lane: 119
           connector: 1
           pointIndex: 3
+        - lane: 123
+          connector: 1
+          pointIndex: 6
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -391.36716, y: -0.111367226, z: 232.0855}
@@ -47180,7 +47183,10 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 123
           connector: 1
-          pointIndex: 4
+          pointIndex: 6
+        - lane: 123
+          connector: 1
+          pointIndex: 7
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -398.27747, y: -0.111367226, z: 227.74371}
@@ -47198,7 +47204,10 @@ MonoBehaviour:
           pointIndex: 4
         - lane: 123
           connector: 1
-          pointIndex: 5
+          pointIndex: 8
+        - lane: 123
+          connector: 1
+          pointIndex: 9
         nearbyPoints: []
         roadBlockAhead: 0
       nextLane: 113
@@ -47255,9 +47264,6 @@ MonoBehaviour:
         - lane: 119
           connector: 2
           pointIndex: 3
-        - lane: 123
-          connector: 1
-          pointIndex: 4
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -395.2917, y: -0.111367226, z: 233.63603}
@@ -47276,6 +47282,9 @@ MonoBehaviour:
         - lane: 119
           connector: 1
           pointIndex: 3
+        - lane: 123
+          connector: 1
+          pointIndex: 6
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -392.07233, y: -0.111367226, z: 235.09045}
@@ -47291,6 +47300,9 @@ MonoBehaviour:
         - lane: 114
           connector: 1
           pointIndex: 2
+        - lane: 123
+          connector: 1
+          pointIndex: 3
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -390.66055, y: -0.111367226, z: 238.76004}
@@ -47308,10 +47320,13 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
+        - lane: 123
+          connector: 0
+          pointIndex: 3
         - lane: 123
           connector: 1
-          pointIndex: 1
+          pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -390.3035, y: -0.111367226, z: 243.50656}
@@ -47780,10 +47795,10 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
         - lane: 123
           connector: 1
-          pointIndex: 1
+          pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -390.24384, y: -0.111367226, z: 241.95573}
@@ -47895,8 +47910,14 @@ MonoBehaviour:
           connector: 0
           pointIndex: 2
         - lane: 123
+          connector: 0
+          pointIndex: 3
+        - lane: 123
           connector: 1
           pointIndex: 2
+        - lane: 123
+          connector: 1
+          pointIndex: 3
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -395.89944, y: -0.111367226, z: 238.21832}
@@ -47917,10 +47938,16 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 2
+          pointIndex: 4
+        - lane: 123
+          connector: 0
+          pointIndex: 5
         - lane: 123
           connector: 1
-          pointIndex: 3
+          pointIndex: 4
+        - lane: 123
+          connector: 1
+          pointIndex: 5
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -400.57257, y: -0.111367226, z: 238.52734}
@@ -47938,7 +47965,7 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 3
+          pointIndex: 6
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -402.695, y: -0.111367226, z: 238.65761}
@@ -47956,7 +47983,10 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 123
           connector: 0
-          pointIndex: 4
+          pointIndex: 7
+        - lane: 123
+          connector: 0
+          pointIndex: 8
         nearbyPoints: []
         roadBlockAhead: 0
       nextLane: 115
@@ -49710,7 +49740,10 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 3
+          pointIndex: 5
+        - lane: 123
+          connector: 0
+          pointIndex: 6
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -402.695, y: -0.111367226, z: 238.65761}
@@ -49731,7 +49764,10 @@ MonoBehaviour:
           pointIndex: 5
         - lane: 123
           connector: 0
-          pointIndex: 4
+          pointIndex: 7
+        - lane: 123
+          connector: 0
+          pointIndex: 8
         nearbyPoints: []
         roadBlockAhead: 0
       nextLane: 115
@@ -49808,7 +49844,10 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 3
+          pointIndex: 5
+        - lane: 123
+          connector: 0
+          pointIndex: 6
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -396.3542, y: -0.111367226, z: 234.03134}
@@ -49832,7 +49871,10 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 123
           connector: 1
-          pointIndex: 3
+          pointIndex: 5
+        - lane: 123
+          connector: 1
+          pointIndex: 6
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -392.46103, y: -0.111367226, z: 232.21155}
@@ -49942,10 +49984,13 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 3
+          pointIndex: 5
+        - lane: 123
+          connector: 0
+          pointIndex: 6
         - lane: 123
           connector: 1
-          pointIndex: 3
+          pointIndex: 5
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -398.08536, y: -0.111367226, z: 232.53096}
@@ -49975,7 +50020,10 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 123
           connector: 1
-          pointIndex: 4
+          pointIndex: 6
+        - lane: 123
+          connector: 1
+          pointIndex: 7
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -398.27747, y: -0.111367226, z: 227.74371}
@@ -49993,7 +50041,10 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 1
-          pointIndex: 5
+          pointIndex: 8
+        - lane: 123
+          connector: 1
+          pointIndex: 9
         nearbyPoints: []
         roadBlockAhead: 0
       nextLane: 113
@@ -50749,14 +50800,11 @@ MonoBehaviour:
           connector: 1
           pointIndex: 1
         - lane: 122
+          connector: 1
+          pointIndex: 2
+        - lane: 122
           connector: 2
           pointIndex: 1
-        - lane: 138
-          connector: 0
-          pointIndex: 3
-        - lane: 138
-          connector: 0
-          pointIndex: 4
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -357.95294, y: -0.111367226, z: 237.12526}
@@ -50772,6 +50820,9 @@ MonoBehaviour:
         - lane: 122
           connector: 2
           pointIndex: 2
+        - lane: 138
+          connector: 0
+          pointIndex: 5
         - lane: 138
           connector: 1
           pointIndex: 3
@@ -50832,7 +50883,7 @@ MonoBehaviour:
       connectorReservedByTrafficLight: 0
       remainingGreenLightTime: -1
     - conectorA: {x: -357.1355, y: -0.09489754, z: 246.29195}
-      conectorB: {x: -359.0592, y: -0.111367226, z: 241.1621}
+      conectorB: {x: -362.9523, y: -0.111367226, z: 238.6594}
       middlePoints:
       - {x: -357.4023, y: -0.10313238, z: 242.09541}
       points:
@@ -50844,7 +50895,7 @@ MonoBehaviour:
         distanceToNextPoint: 0
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
-        maxSpeedLimit: 1000
+        maxSpeedLimit: 21
         otherConnectorsPoints:
         - lane: 122
           connector: 0
@@ -50854,25 +50905,79 @@ MonoBehaviour:
           pointIndex: 0
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -359.0592, y: -0.111367226, z: 241.1621}
+      - point: {x: -356.90845, y: -0.111367226, z: 244.1806}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 5.4787135
+        distanceToNextPoint: 2.1235805
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
-        maxSpeedLimit: 1000
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -357.4023, y: -0.111367226, z: 242.09541}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.1428766
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 35
         otherConnectorsPoints:
         - lane: 122
           connector: 0
           pointIndex: 1
+        - lane: 122
+          connector: 2
+          pointIndex: 1
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -359.19058, y: -0.111367226, z: 240.69038}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.2742062
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
         - lane: 138
           connector: 0
-          pointIndex: 3
+          pointIndex: 5
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -361.55804, y: -0.111367226, z: 239.39873}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.696897
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
         - lane: 138
           connector: 0
-          pointIndex: 4
+          pointIndex: 6
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -362.9523, y: -0.111367226, z: 238.6594}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 1.5781528
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 138
+          connector: 0
+          pointIndex: 7
         nearbyPoints: []
         roadBlockAhead: 0
       nextLane: 123
@@ -50882,7 +50987,7 @@ MonoBehaviour:
       isRequested: 0
       priority: 1
       direction: 1
-      totalDistance: 5.4787135
+      totalDistance: 10.815713
       randomWeight: 0
       vehicleType: -1
       connectorReservedByTrafficLight: 0
@@ -50923,9 +51028,12 @@ MonoBehaviour:
         - lane: 122
           connector: 0
           pointIndex: 1
-        - lane: 138
-          connector: 0
-          pointIndex: 3
+        - lane: 122
+          connector: 1
+          pointIndex: 1
+        - lane: 122
+          connector: 1
+          pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -356.49792, y: -0.111367226, z: 238.12407}
@@ -50941,6 +51049,12 @@ MonoBehaviour:
         - lane: 122
           connector: 0
           pointIndex: 2
+        - lane: 138
+          connector: 0
+          pointIndex: 4
+        - lane: 138
+          connector: 0
+          pointIndex: 5
         - lane: 138
           connector: 1
           pointIndex: 2
@@ -51024,15 +51138,15 @@ MonoBehaviour:
     totalOcupation: 0
     totalDistance: 37.51747
     maxTotalOcupation: 75
-  - conectorA: {x: -359.0592, y: -0.111367226, z: 241.1621}
-    conectorB: {x: -385.9909, y: -0.111367226, z: 238.59718}
+  - conectorA: {x: -362.9523, y: -0.111367226, z: 238.6594}
+    conectorB: {x: -385.9909, y: -0.111367226, z: 238.78256}
     middlePoints:
-    - {x: -372.52505, y: -0.111367226, z: 239.87964}
+    - {x: -372.52505, y: -0.111367226, z: 238.86002}
     laneWidth: 2.5
     vehicleType: -1
     maxSpeed: 50
     points:
-    - point: {x: -359.0592, y: -0.111367226, z: 241.1621}
+    - point: {x: -362.9523, y: -0.111367226, z: 238.6594}
       reservationID: 0
       carwhoReserved: {fileID: 0}
       laneReservationID: -1
@@ -51044,72 +51158,60 @@ MonoBehaviour:
       otherConnectorsPoints: []
       nearbyPoints: []
       roadBlockAhead: 0
-    - point: {x: -362.05362, y: -0.111367226, z: 240.87692}
+    - point: {x: -366.07578, y: -0.19067216, z: 238.74312}
       reservationID: 0
       carwhoReserved: {fileID: 0}
       laneReservationID: -1
       connectorReservationCount: 0
-      distanceToNextPoint: 3.0079637
+      distanceToNextPoint: 3.1256022
       rightParalelLaneIndex: -1
       leftParalelLaneIndex: -1
       maxSpeedLimit: 1000
       otherConnectorsPoints: []
       nearbyPoints: []
       roadBlockAhead: 0
-    - point: {x: -366.35843, y: -0.28599548, z: 240.46695}
+    - point: {x: -372.52505, y: -0.19067216, z: 238.86002}
       reservationID: 0
       carwhoReserved: {fileID: 0}
       laneReservationID: -1
       connectorReservationCount: 0
-      distanceToNextPoint: 4.327812
+      distanceToNextPoint: 6.4503393
       rightParalelLaneIndex: -1
       leftParalelLaneIndex: -1
       maxSpeedLimit: 1000
       otherConnectorsPoints: []
       nearbyPoints: []
       roadBlockAhead: 0
-    - point: {x: -372.52505, y: -0.28599548, z: 239.87964}
+    - point: {x: -376.6569, y: -0.19067216, z: 238.85501}
       reservationID: 0
       carwhoReserved: {fileID: 0}
       laneReservationID: -1
       connectorReservationCount: 0
-      distanceToNextPoint: 6.194531
+      distanceToNextPoint: 4.1318393
       rightParalelLaneIndex: -1
       leftParalelLaneIndex: -1
       maxSpeedLimit: 1000
       otherConnectorsPoints: []
       nearbyPoints: []
       roadBlockAhead: 0
-    - point: {x: -376.9217, y: -0.28599548, z: 239.4609}
+    - point: {x: -381.29898, y: -0.19067216, z: 238.82208}
       reservationID: 0
       carwhoReserved: {fileID: 0}
       laneReservationID: -1
       connectorReservationCount: 0
-      distanceToNextPoint: 4.4165316
+      distanceToNextPoint: 4.6422067
       rightParalelLaneIndex: -1
       leftParalelLaneIndex: -1
       maxSpeedLimit: 1000
       otherConnectorsPoints: []
       nearbyPoints: []
       roadBlockAhead: 0
-    - point: {x: -381.45126, y: -0.28599548, z: 239.02953}
+    - point: {x: -385.9909, y: -0.111367226, z: 238.78256}
       reservationID: 0
       carwhoReserved: {fileID: 0}
       laneReservationID: -1
       connectorReservationCount: 0
-      distanceToNextPoint: 4.550067
-      rightParalelLaneIndex: -1
-      leftParalelLaneIndex: -1
-      maxSpeedLimit: 1000
-      otherConnectorsPoints: []
-      nearbyPoints: []
-      roadBlockAhead: 0
-    - point: {x: -385.9909, y: -0.111367226, z: 238.59718}
-      reservationID: 0
-      carwhoReserved: {fileID: 0}
-      laneReservationID: -1
-      connectorReservationCount: 0
-      distanceToNextPoint: 4.5635257
+      distanceToNextPoint: 4.692762
       rightParalelLaneIndex: -1
       leftParalelLaneIndex: -1
       maxSpeedLimit: 1000
@@ -51117,12 +51219,12 @@ MonoBehaviour:
       nearbyPoints: []
       roadBlockAhead: 0
     connectors:
-    - conectorA: {x: -385.9909, y: -0.111367226, z: 238.59718}
+    - conectorA: {x: -385.9909, y: -0.111367226, z: 238.78256}
       conectorB: {x: -402.695, y: -0.111367226, z: 238.65761}
       middlePoints:
       - {x: -394.34296, y: -0.111367226, z: 238.6274}
       points:
-      - point: {x: -385.9909, y: -0.111367226, z: 238.59718}
+      - point: {x: -385.9909, y: -0.111367226, z: 238.78256}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
@@ -51137,12 +51239,27 @@ MonoBehaviour:
           pointIndex: 0
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -389.4478, y: -0.111367226, z: 238.60968}
+      - point: {x: -387.6867, y: -0.111367226, z: 238.74596}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 3.4569318
+        distanceToNextPoint: 1.6961958
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 123
+          connector: 1
+          pointIndex: 1
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -390.12582, y: -0.111367226, z: 238.6931}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.43969
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -51155,7 +51272,25 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 1
-          pointIndex: 1
+          pointIndex: 2
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -392.78528, y: -0.111367226, z: 238.64531}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.6598837
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 114
+          connector: 1
+          pointIndex: 2
+        - lane: 123
+          connector: 1
+          pointIndex: 3
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -394.34296, y: -0.111367226, z: 238.6274}
@@ -51163,7 +51298,22 @@ MonoBehaviour:
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 4.8951735
+        distanceToNextPoint: 1.5577812
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 123
+          connector: 1
+          pointIndex: 4
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -396.8724, y: -0.111367226, z: 238.62314}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.529453
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -51171,17 +51321,20 @@ MonoBehaviour:
         - lane: 114
           connector: 1
           pointIndex: 3
-        - lane: 123
+        - lane: 119
           connector: 1
+          pointIndex: 2
+        - lane: 119
+          connector: 2
           pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -398.84204, y: -0.111367226, z: 238.64368}
+      - point: {x: -399.512, y: -0.111367226, z: 238.63579}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 4.499114
+        distanceToNextPoint: 2.6396177
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -51192,12 +51345,18 @@ MonoBehaviour:
         - lane: 119
           connector: 0
           pointIndex: 2
-        - lane: 119
-          connector: 1
-          pointIndex: 2
-        - lane: 119
-          connector: 2
-          pointIndex: 2
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -401.73843, y: -0.111367226, z: 238.65184}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.2264984
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -402.695, y: -0.111367226, z: 238.65761}
@@ -51205,7 +51364,7 @@ MonoBehaviour:
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 3.8529916
+        distanceToNextPoint: 0.9565909
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -51225,17 +51384,17 @@ MonoBehaviour:
       isRequested: 0
       priority: 1
       direction: 2
-      totalDistance: 16.70421
+      totalDistance: 16.705711
       randomWeight: 0
       vehicleType: -1
       connectorReservedByTrafficLight: 0
       remainingGreenLightTime: -1
-    - conectorA: {x: -385.9909, y: -0.111367226, z: 238.59718}
+    - conectorA: {x: -385.9909, y: -0.111367226, z: 238.78256}
       conectorB: {x: -398.27747, y: -0.111367226, z: 227.74371}
       middlePoints:
       - {x: -396.39246, y: 0.05395849, z: 235.90398}
       points:
-      - point: {x: -385.9909, y: -0.111367226, z: 238.59718}
+      - point: {x: -385.9909, y: -0.111367226, z: 238.78256}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
@@ -51250,15 +51409,30 @@ MonoBehaviour:
           pointIndex: 0
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -389.4702, y: -0.111367226, z: 238.02998}
+      - point: {x: -387.67322, y: -0.111367226, z: 238.45345}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 3.5252385
+        distanceToNextPoint: 1.7142029
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
-        maxSpeedLimit: 28
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 123
+          connector: 0
+          pointIndex: 1
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -390.13773, y: -0.111367226, z: 238.03299}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.5001166
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 35
         otherConnectorsPoints:
         - lane: 112
           connector: 2
@@ -51268,28 +51442,46 @@ MonoBehaviour:
           pointIndex: 2
         - lane: 123
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -394.08484, y: -0.111367226, z: 237.04474}
+      - point: {x: -392.83524, y: -0.111367226, z: 237.45145}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 4.7186294
+        distanceToNextPoint: 2.7594838
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 28
+        otherConnectorsPoints:
+        - lane: 112
+          connector: 2
+          pointIndex: 3
+        - lane: 114
+          connector: 1
+          pointIndex: 2
+        - lane: 123
+          connector: 0
+          pointIndex: 3
+        - lane: 123
+          connector: 0
+          pointIndex: 4
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -395.21667, y: -0.111367226, z: 236.63904}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.5161996
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 17.5
         otherConnectorsPoints:
         - lane: 114
           connector: 1
-          pointIndex: 2
-        - lane: 114
-          connector: 1
           pointIndex: 3
-        - lane: 123
-          connector: 0
-          pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -396.39246, y: -0.111367226, z: 235.90398}
@@ -51297,7 +51489,7 @@ MonoBehaviour:
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 2.5741863
+        distanceToNextPoint: 1.3866425
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 21
@@ -51306,19 +51498,37 @@ MonoBehaviour:
           connector: 1
           pointIndex: 2
         - lane: 119
-          connector: 1
-          pointIndex: 3
-        - lane: 119
           connector: 2
           pointIndex: 2
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -397.95996, y: -0.111367226, z: 231.87761}
+      - point: {x: -397.57684, y: -0.111367226, z: 233.82187}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 4.3207297
+        distanceToNextPoint: 2.3954008
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 35
+        otherConnectorsPoints:
+        - lane: 112
+          connector: 0
+          pointIndex: 2
+        - lane: 112
+          connector: 2
+          pointIndex: 2
+        - lane: 119
+          connector: 1
+          pointIndex: 3
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -398.03107, y: -0.111367226, z: 231.16293}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.697454
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -51327,17 +51537,23 @@ MonoBehaviour:
           connector: 0
           pointIndex: 1
         - lane: 112
-          connector: 0
-          pointIndex: 2
-        - lane: 112
           connector: 1
-          pointIndex: 1
-        - lane: 112
-          connector: 2
           pointIndex: 1
         - lane: 119
           connector: 2
           pointIndex: 3
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -398.1669, y: -0.111367226, z: 228.76189}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.404886
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -398.27747, y: -0.111367226, z: 227.74371}
@@ -51345,7 +51561,7 @@ MonoBehaviour:
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 4.146071
+        distanceToNextPoint: 1.0241588
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -51365,7 +51581,7 @@ MonoBehaviour:
       isRequested: 0
       priority: 1
       direction: 0
-      totalDistance: 19.284855
+      totalDistance: 19.398544
       randomWeight: 0
       vehicleType: -1
       connectorReservedByTrafficLight: 0
@@ -51374,7 +51590,7 @@ MonoBehaviour:
     laneLinkLeft: -1
     trafficDensity: 1
     totalOcupation: 0
-    totalDistance: 27.060432
+    totalDistance: 23.04275
     maxTotalOcupation: 75
   - conectorA: {x: -388.2352, y: -0.111367226, z: 231.86426}
     conectorB: {x: -361.30353, y: -0.111367226, z: 231.86426}
@@ -51668,7 +51884,7 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 138
           connector: 0
-          pointIndex: 2
+          pointIndex: 3
         - lane: 138
           connector: 1
           pointIndex: 1
@@ -56195,7 +56411,7 @@ MonoBehaviour:
       roadBlockAhead: 0
     connectors:
     - conectorA: {x: -346.87582, y: -0.111367226, z: 239.2384}
-      conectorB: {x: -359.0592, y: -0.111367226, z: 241.1621}
+      conectorB: {x: -362.9523, y: -0.111367226, z: 238.6594}
       middlePoints:
       - {x: -352.96753, y: -0.111367226, z: 240.20026}
       points:
@@ -56217,15 +56433,27 @@ MonoBehaviour:
           pointIndex: 0
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -350.58292, y: -0.111367226, z: 239.82375}
+      - point: {x: -348.53125, y: -0.111367226, z: 239.63573}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 3.75302
+        distanceToNextPoint: 1.7024398
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
-        maxSpeedLimit: 1000
+        maxSpeedLimit: 35
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -350.99762, y: -0.111367226, z: 240.10959}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.5114784
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 35
         otherConnectorsPoints:
         - lane: 72
           connector: 0
@@ -56243,7 +56471,7 @@ MonoBehaviour:
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 2.414154
+        distanceToNextPoint: 1.9719951
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
@@ -56253,37 +56481,73 @@ MonoBehaviour:
           pointIndex: 3
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -357.36884, y: -0.111367226, z: 240.89522}
+      - point: {x: -355.17612, y: -0.111367226, z: 239.98857}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 4.4558353
+        distanceToNextPoint: 2.218709
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 138
+          connector: 1
+          pointIndex: 2
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -357.8145, y: -0.111367226, z: 239.58073}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.6697323
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
         otherConnectorsPoints:
         - lane: 122
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
+        - lane: 122
+          connector: 1
+          pointIndex: 3
         - lane: 122
           connector: 2
-          pointIndex: 1
+          pointIndex: 2
+        - lane: 138
+          connector: 1
+          pointIndex: 3
         nearbyPoints: []
         roadBlockAhead: 0
-      - point: {x: -359.0592, y: -0.111367226, z: 241.1621}
+      - point: {x: -360.39145, y: -0.111367226, z: 239.11989}
         reservationID: 0
         carwhoReserved: {fileID: 0}
         laneReservationID: -1
         connectorReservationCount: 0
-        distanceToNextPoint: 1.7113062
+        distanceToNextPoint: 2.617818
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 1000
         otherConnectorsPoints:
         - lane: 122
           connector: 1
-          pointIndex: 1
+          pointIndex: 4
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -362.9523, y: -0.111367226, z: 238.6594}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.601926
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints:
+        - lane: 122
+          connector: 1
+          pointIndex: 5
         nearbyPoints: []
         roadBlockAhead: 0
       nextLane: 123
@@ -56293,7 +56557,7 @@ MonoBehaviour:
       isRequested: 0
       priority: 1
       direction: 2
-      totalDistance: 12.334316
+      totalDistance: 16.294098
       randomWeight: 0
       vehicleType: -1
       connectorReservedByTrafficLight: 0
@@ -56317,6 +56581,9 @@ MonoBehaviour:
           connector: 0
           pointIndex: 0
         - lane: 138
+          connector: 0
+          pointIndex: 1
+        - lane: 138
           connector: 2
           pointIndex: 0
         nearbyPoints: []
@@ -56339,7 +56606,7 @@ MonoBehaviour:
           pointIndex: 3
         - lane: 138
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
         - lane: 138
           connector: 2
           pointIndex: 1
@@ -56354,7 +56621,10 @@ MonoBehaviour:
         rightParalelLaneIndex: -1
         leftParalelLaneIndex: -1
         maxSpeedLimit: 17.5
-        otherConnectorsPoints: []
+        otherConnectorsPoints:
+        - lane: 138
+          connector: 0
+          pointIndex: 4
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -357.06836, y: -0.111367226, z: 237.62077}
@@ -56373,6 +56643,9 @@ MonoBehaviour:
         - lane: 122
           connector: 2
           pointIndex: 2
+        - lane: 138
+          connector: 0
+          pointIndex: 5
         nearbyPoints: []
         roadBlockAhead: 0
       - point: {x: -358.45328, y: -0.111367226, z: 233.78108}
@@ -56445,6 +56718,9 @@ MonoBehaviour:
           connector: 0
           pointIndex: 0
         - lane: 138
+          connector: 0
+          pointIndex: 1
+        - lane: 138
           connector: 1
           pointIndex: 0
         nearbyPoints: []
@@ -56464,10 +56740,10 @@ MonoBehaviour:
           pointIndex: 4
         - lane: 138
           connector: 0
-          pointIndex: 1
+          pointIndex: 2
         - lane: 138
           connector: 0
-          pointIndex: 2
+          pointIndex: 3
         - lane: 138
           connector: 1
           pointIndex: 1
@@ -63732,8 +64008,8 @@ MonoBehaviour:
     totalOcupation: 0
     totalDistance: 38.135212
     maxTotalOcupation: 75
-  menuSelection: 1
-  laneMenuSelection: 0
+  menuSelection: 0
+  laneMenuSelection: 2
   connectionsMenuSelection: 0
   settingsMenuSelection: 0
   visualLinesWidth: 5
@@ -63926,7 +64202,7 @@ MonoBehaviour:
   amount: 50
   maxDistance: 200
   offset: 140
-  closerRange: 25
+  closerRange: 40
   refreshTime: 0.02
   manager: {fileID: 114020592706488816}
   unusedCarsPosition: {x: 50000, y: 50000, z: 50000}
@@ -65066,10 +65342,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GameStatus: 0
   Players:
-  - {fileID: 1484941215423084, guid: 7c542dbbd5804f24fbe854d6c1a27ebd, type: 2}
-  - {fileID: 1685598372699530, guid: 9d59b053706a88f4cb2682805bd9e3de, type: 2}
-  - {fileID: 1529048852363806, guid: b33191023d1c8cc4b8b30dda1a50aff1, type: 2}
-  - {fileID: 1743858957963006, guid: b4c6f016cb949564f9cab4b4a027b9c1, type: 2}
+  - {fileID: 1232208411076978, guid: c71a397ef9a4d534f91c3911509a85b4, type: 2}
+  - {fileID: 1184376850493268, guid: c856dc42a0bdb174b9cfa3d72552aee2, type: 2}
+  - {fileID: 1467418268023684, guid: fcaf86c59236ea041913acf225b34046, type: 2}
+  - {fileID: 1604612751745164, guid: af2b0d076b78b6840a55348d39b6d1d6, type: 2}
+  - {fileID: 1582873835645092, guid: d757c8ad7178cb447a01c5a10dfeb77a, type: 2}
   Player: {fileID: 0}
   CurrentPlayer: 0
   Destination: {fileID: 1882939737781630, guid: 3fc5f1ac6dc8181469ec593e36cacbf7,
@@ -65236,7 +65513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c260b9344a9770347934a90c90132918, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerCar: {fileID: 0}
+  playerCar: {fileID: 4459842855943958, guid: c71a397ef9a4d534f91c3911509a85b4, type: 2}
   pivot: {fileID: 1534769236544802}
   cameraMode: 0
   distance: 20
