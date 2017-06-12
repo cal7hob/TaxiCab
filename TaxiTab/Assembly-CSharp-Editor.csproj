@@ -89,6 +89,7 @@
      <Compile Include="Assets\iTS\Traffic System\Scripts\Editor\TSTrafficLightEditor.cs" />
      <Compile Include="Assets\iTS\Traffic System\Scripts\Editor\TSTrafficLightGroupManagerEditor.cs" />
      <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
+     <None Include="Assets\GUIPackCartoon\Demo\Shaders\GrayTint.shader" />
      <None Include="Assets\AmplifyColor\Resources\MaskBlend.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\SimpleTown\Changelog.txt" />
@@ -101,10 +102,12 @@
      <None Include="Assets\AmplifyColor\Resources\Mask.shader" />
      <None Include="Assets\AmplifyColor\Samples\Check out the full LUT Package.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\GUIPackCartoon\Demo\Fonts\OFL.txt" />
      <None Include="Assets\AmplifyColor\Readme.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\SimplePeople\Changelog.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\read me.txt" />
      <None Include="Assets\SimpleRacer\_FX\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
@@ -184,17 +187,17 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="iTSEditor">
- <HintPath>H:/TaxiTab/TaxiTab/Assets/iTS/Traffic System/Scripts/Editor/iTSEditor.dll</HintPath>
- </Reference>
- <Reference Include="iTSMain">
- <HintPath>H:/TaxiTab/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
- </Reference>
  <Reference Include="AmplifyColor">
  <HintPath>H:/TaxiTab/TaxiTab/Assets/AmplifyColor/Plugins/AmplifyColor.dll</HintPath>
  </Reference>
  <Reference Include="AmplifyColorEditor">
  <HintPath>H:/TaxiTab/TaxiTab/Assets/AmplifyColor/Plugins/Editor/AmplifyColorEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="iTSEditor">
+ <HintPath>H:/TaxiTab/TaxiTab/Assets/iTS/Traffic System/Scripts/Editor/iTSEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="iTSMain">
+ <HintPath>H:/TaxiTab/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

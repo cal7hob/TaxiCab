@@ -1,0 +1,49 @@
+Low Poly Enviroments collection copyright (c) 2016 111percent / Crater Co.. Ltd.
+
+
+// GET STARTED //
+
+
+This asset contains 150+ low poly environment models(Trees, Mountains, Rocks etc) and demo scene.
+
+-Buildings (19)
+-Ground (4)
+-Mountains (40)
+-Rocks (25)
+-Statues (29)
+-Trees (44)
+-Etc (32)
+
+
+This asset is optimized for mobile performance.
+Applied POT texture atlas.
+Few tris & verts.
+
+You can easily add these models to your game.
+
+Desert, Winter, Volcano, Forest, Fantasy atmosphere.
+
+
+-
+
+
+This asset package was made with Unity version 5.35 and doesn't have any standard assets.
+
+A texture atlas is included which contains textures for all models(189 preferb files) and a map(4 prefab files) of demo scene.
+
+
+-
+
+Updated issue
+
+-Ver 1.0 (24. Nov. 2016)
+Made and Uploaded.
+
+
+
+// Links //
+111percent web site : http://www.111percent.net
+contact mail : help@111percent.net or contact@111percent.net
+
+* If you have any further questions, please feel free to contact to us.
+* Thank you. We love you so much. :-)
