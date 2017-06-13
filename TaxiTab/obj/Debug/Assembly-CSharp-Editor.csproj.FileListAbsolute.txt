@@ -116,3 +116,4 @@ C:\Users\Anjum\Documents\UnityProjects\TaxiCab\TaxiTab\Temp\bin\Debug\UnityEdito
 C:\Users\Anjum\Documents\UnityProjects\TaxiCab\TaxiTab\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
 C:\Users\Anjum\Documents\UnityProjects\TaxiCab\TaxiTab\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\Anjum\Documents\UnityProjects\TaxiCab\TaxiTab\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\Anjum\Documents\UnityProjects\TaxiCab\TaxiTab\Temp\bin\Debug\UnityEditor.Tizen.Extensions.dll

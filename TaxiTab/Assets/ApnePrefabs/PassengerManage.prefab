@@ -311,6 +311,13 @@ MonoBehaviour:
   DroppingPoint: {fileID: 1833054657328760}
   DropFootPath: {fileID: 1051263021209106}
   passengerSingle: {fileID: 0}
+  passengersList:
+  - {fileID: 2100000, guid: 497bbddce010fea4da3dcb5c5210ad16, type: 2}
+  - {fileID: 2100000, guid: ce7f710feeb678b41b9487e80c4b85dd, type: 2}
+  - {fileID: 2100000, guid: c8bb71ab462eaf54fb531f8056d4a59b, type: 2}
+  - {fileID: 2100000, guid: cba661a44d31ac342b6e3f75f0701f9e, type: 2}
+  - {fileID: 2100000, guid: 165360346bcdd014ea731da42ba4ca50, type: 2}
+  - {fileID: 2100000, guid: c0ed59d52348d33419dc8c8afe08cf0e, type: 2}
   singleInstance: 1
   startingCoordinates:
   - {fileID: 0}

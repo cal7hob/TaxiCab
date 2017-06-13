@@ -9,10 +9,15 @@ public class PassengerManager : MonoBehaviour
     int totalPassengers = 1;
     public int droppedPassengers;
 
+    static System.Random rnd;
+
     public GameObject PickUpPoint;
     public GameObject DroppingPoint;
     public GameObject DropFootPath;
     public GameObject passengerSingle;
+
+    public List<Material> passengersList;
+
 
     public bool singleInstance = true;
     public List<Transform> startingCoordinates;
@@ -62,7 +67,7 @@ public class PassengerManager : MonoBehaviour
                 DroppingPoint.SetActive(false);
                 passengerSingle.transform.position = pickUpFootPathPoints[0].position;
                 DropFootPath.transform.position = dropFootPathPoints[0].position;
-
+                passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0,5)];
             }
 
             else if (route == 1)
@@ -73,8 +78,7 @@ public class PassengerManager : MonoBehaviour
                 DroppingPoint.SetActive(false);
                 passengerSingle.transform.position = pickUpFootPathPoints[1].position;
                 DropFootPath.transform.position = dropFootPathPoints[1].position;
-
-
+                passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0, 5)];
             }
             else if (route == 2)
             {
@@ -84,8 +88,7 @@ public class PassengerManager : MonoBehaviour
                 DroppingPoint.SetActive(false);
                 passengerSingle.transform.position = pickUpFootPathPoints[2].position;
                 DropFootPath.transform.position = dropFootPathPoints[2].position;
-
-
+                passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0, 5)];
             }
 
             else if (route == 3)
@@ -105,6 +108,8 @@ public class PassengerManager : MonoBehaviour
         PickUpPoint = GameObject.FindGameObjectWithTag("Pickup");
         DroppingPoint = GameObject.FindGameObjectWithTag("DropPoint");
         DroppingPoint.SetActive(false);
+
+        rnd = new System.Random();
     }
 
     //TODO:

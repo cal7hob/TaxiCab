@@ -661,6 +661,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114740220720340492, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: pedestrian
+      value: 
+      objectReference: {fileID: 215160756}
+    - target: {fileID: 114689841591013146, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: pedestrian
+      value: 
+      objectReference: {fileID: 215160756}
     - target: {fileID: 114087128931454226, guid: b746edd7c0dc2064198a6c44deb1c76b,
         type: 2}
       propertyPath: passengerSingle
@@ -726,21 +736,6 @@ Prefab:
       propertyPath: dropFootPathPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1242233182}
-    - target: {fileID: 114689841591013146, guid: b746edd7c0dc2064198a6c44deb1c76b,
-        type: 2}
-      propertyPath: pedestrian
-      value: 
-      objectReference: {fileID: 215160756}
-    - target: {fileID: 114740220720340492, guid: b746edd7c0dc2064198a6c44deb1c76b,
-        type: 2}
-      propertyPath: pedestrian
-      value: 
-      objectReference: {fileID: 215160756}
-    - target: {fileID: 114087128931454226, guid: b746edd7c0dc2064198a6c44deb1c76b,
-        type: 2}
-      propertyPath: route
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b746edd7c0dc2064198a6c44deb1c76b, type: 2}
   m_IsPrefabParent: 0
@@ -821,21 +816,10 @@ Prefab:
       propertyPath: DropFootPath
       value: 
       objectReference: {fileID: 1320622944}
-    - target: {fileID: 9500000, guid: b186f9485a0828b468f98fe846ae1a68, type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: a4be94e7f4a583148ba73632b503b167, type: 2}
-    - target: {fileID: 100040, guid: b186f9485a0828b468f98fe846ae1a68, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100038, guid: b186f9485a0828b468f98fe846ae1a68, type: 2}
-      propertyPath: m_IsActive
+    - target: {fileID: 114435191109297812, guid: b186f9485a0828b468f98fe846ae1a68,
+        type: 2}
+      propertyPath: materialNumber
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 100042, guid: b186f9485a0828b468f98fe846ae1a68, type: 2}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b186f9485a0828b468f98fe846ae1a68, type: 2}

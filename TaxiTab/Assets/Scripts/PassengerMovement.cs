@@ -7,6 +7,10 @@ public class PassengerMovement : MonoBehaviour {
     public GameObject playerVehcile;
     public Transform dropPoint;
     public Transform DropFootPath;
+    public GameObject passengerMatChanging;
+    public int materialNumber = 0;
+
+    public List<Material> passengerMaterials;
 
     public Transform target;
     private Animator pedestrianAnimator;
@@ -18,8 +22,14 @@ public class PassengerMovement : MonoBehaviour {
         pedestrianAnimator = GetComponent<Animator>();
         Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
 
+        //if(materialNumber == 0)
+        //    passengerMatChanging.GetComponent<Renderer>().material = passengerMaterials[0];
+        //else if(materialNumber == 1)
+        //    passengerMatChanging.GetComponent<Renderer>().material = passengerMaterials[1];
+        //else if (materialNumber == 2)
+        //    passengerMatChanging.GetComponent<Renderer>().material = passengerMaterials[2];
 
-
+        //Debug.Log( passengerMatChanging.GetComponent<Renderer>().material);
     }
 
     //// Update is called once per frame
