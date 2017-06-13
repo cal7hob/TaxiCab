@@ -11,10 +11,16 @@ public class PassengerManager : MonoBehaviour
 
     public GameObject PickUpPoint;
     public GameObject DroppingPoint;
+    public GameObject DropFootPath;
+    public GameObject passengerSingle;
 
     public bool singleInstance = true;
     public List<Transform> startingCoordinates;
     public List<Transform> endingCoordinates;
+    public List<Transform> pickUpFootPathPoints;
+    public List<Transform> dropFootPathPoints;
+    //TODO;
+    //public List<GameObject> passengers;
 
     public int route;
     private static PassengerManager instance = null;
@@ -54,6 +60,8 @@ public class PassengerManager : MonoBehaviour
                 PickUpPoint.SetActive(true);
                 DroppingPoint.transform.position = endingCoordinates[0].position;
                 DroppingPoint.SetActive(false);
+                passengerSingle.transform.position = pickUpFootPathPoints[0].position;
+                DropFootPath.transform.position = dropFootPathPoints[0].position;
 
             }
 
@@ -63,6 +71,9 @@ public class PassengerManager : MonoBehaviour
                 PickUpPoint.SetActive(true);
                 DroppingPoint.transform.position = endingCoordinates[1].position;
                 DroppingPoint.SetActive(false);
+                passengerSingle.transform.position = pickUpFootPathPoints[1].position;
+                DropFootPath.transform.position = dropFootPathPoints[1].position;
+
 
             }
             else if (route == 2)
@@ -71,6 +82,9 @@ public class PassengerManager : MonoBehaviour
                 PickUpPoint.SetActive(true);
                 DroppingPoint.transform.position = endingCoordinates[2].position;
                 DroppingPoint.SetActive(false);
+                passengerSingle.transform.position = pickUpFootPathPoints[2].position;
+                DropFootPath.transform.position = dropFootPathPoints[2].position;
+
 
             }
 

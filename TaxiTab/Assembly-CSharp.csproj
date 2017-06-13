@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\PassengerMovement.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCHoodCamera.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCResetScene.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCWheelCamera.cs" />
@@ -158,6 +157,7 @@
      <Compile Include="Assets\Scripts\CarSelection.cs" />
      <Compile Include="Assets\Scripts\DropPoint.cs" />
      <Compile Include="Assets\Scripts\PassengerManager.cs" />
+     <Compile Include="Assets\Scripts\PassengerMovement.cs" />
      <Compile Include="Assets\Scripts\PickUpPassengers.cs" />
      <Compile Include="Assets\Scripts\PickUpPoint.cs" />
      <Compile Include="Assets\Scripts\PlayerManager.cs" />

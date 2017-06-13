@@ -24,9 +24,11 @@ public class DropPoint : MonoBehaviour
             pedestrian.GetComponent<PassengerMovement>().DropPassenger();
             Car = other.GetComponent<PlayerManager>();
             Car.StopCar();
-            Invoke("ChangeRoute", 10f);
-            Invoke("RestartCar", 2f);
-            
+            this.gameObject.SetActive(false);
+            //Invoke("ChangeRoute", 2f);
+           
+           Invoke("RestartCar", 2f);
+
         }
     }
 
@@ -36,11 +38,5 @@ public class DropPoint : MonoBehaviour
 
     }
 
-    void ChangeRoute()
-    {
-        PassengerManager.Instance.route++;
-        PassengerManager.Instance.singleInstance = true;
-        PassengerManager.Instance.droppedPassengers++;
-        Debug.Log(PassengerManager.Instance.droppedPassengers);
-    }
+   
 }

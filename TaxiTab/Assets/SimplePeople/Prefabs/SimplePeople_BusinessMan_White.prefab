@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 114435191109297812}
   m_Layer: 0
   m_Name: SimplePeople_BusinessMan_White
-  m_TagString: Untagged
+  m_TagString: Passenger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -535,8 +535,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.16, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalPosition: {x: 28.98, y: 0.01411438, z: 12.54}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400038}
   - {fileID: 400040}
@@ -1750,3 +1750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9f4736ab1103db43a137d07b0475582, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerVehcile: {fileID: 0}
+  dropPoint: {fileID: 0}
+  DropFootPath: {fileID: 0}
+  target: {fileID: 0}

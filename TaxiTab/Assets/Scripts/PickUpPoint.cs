@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PickUpPoint : MonoBehaviour {
 
-    public Animator pedestrianAnimator;
+     public GameObject pedestrian; 
+
 	// Use this for initialization
 	void Start () {
 
@@ -19,10 +20,12 @@ public class PickUpPoint : MonoBehaviour {
         if (other.gameObject.tag == "Player")
         {
             other.GetComponent<PlayerManager>().StopCar();
-            pedestrianAnimator.SetFloat("Speed_f", 0.2f);
+            //pedestrianAnimator.SetBool("IsRunning", true);
+            pedestrian.GetComponent<PassengerMovement>().PickupPassenger();
+
             Debug.Log("hi");
             PassengerManager.Instance.DroppingPoint.SetActive(true);
-            //this.gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
         }
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - Traffic
   - Pickup
   - DropPoint
+  - Passenger
+  - FootPath
   - DropFootPath
   layers:
   - Default
