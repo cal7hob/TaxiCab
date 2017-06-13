@@ -5,15 +5,33 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour {
 
+    RCC_CarControllerV3 myPlayerCar;
+    Rigidbody thisRigidBody; 
+
 	// Use this for initialization
 	void Start () {
         //cityCoordinates.Add(new PassengerPoints)
+        myPlayerCar = GetComponent<RCC_CarControllerV3>();
+        thisRigidBody = GetComponent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
 	}
+
+    public void StopCar()
+    {
+
+        thisRigidBody.isKinematic = true;
+        
+    }
+    public void StartCar()
+    {
+
+        thisRigidBody.isKinematic = false;
+
+    }
 
     void OnCollisionEnter(Collision col)
     {

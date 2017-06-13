@@ -8,6 +8,7 @@ TagManager:
   - Traffic
   - Pickup
   - DropPoint
+  - DropFootPath
   layers:
   - Default
   - TransparentFX
