@@ -661,16 +661,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 114740220720340492, guid: b746edd7c0dc2064198a6c44deb1c76b,
-        type: 2}
-      propertyPath: pedestrian
-      value: 
-      objectReference: {fileID: 215160756}
-    - target: {fileID: 114689841591013146, guid: b746edd7c0dc2064198a6c44deb1c76b,
-        type: 2}
-      propertyPath: pedestrian
-      value: 
-      objectReference: {fileID: 215160756}
     - target: {fileID: 114087128931454226, guid: b746edd7c0dc2064198a6c44deb1c76b,
         type: 2}
       propertyPath: passengerSingle
@@ -736,6 +726,31 @@ Prefab:
       propertyPath: dropFootPathPoints.Array.data[2]
       value: 
       objectReference: {fileID: 1242233182}
+    - target: {fileID: 114689841591013146, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: pedestrian
+      value: 
+      objectReference: {fileID: 215160756}
+    - target: {fileID: 114740220720340492, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: pedestrian
+      value: 
+      objectReference: {fileID: 215160756}
+    - target: {fileID: 23679233522133264, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cea0474ab4ce83042b5a03454ed62f24, type: 2}
+    - target: {fileID: 23679233522133264, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23312049868707580, guid: b746edd7c0dc2064198a6c44deb1c76b,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cea0474ab4ce83042b5a03454ed62f24, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b746edd7c0dc2064198a6c44deb1c76b, type: 2}
   m_IsPrefabParent: 0

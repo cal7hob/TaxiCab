@@ -218,6 +218,7 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\GlowShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
