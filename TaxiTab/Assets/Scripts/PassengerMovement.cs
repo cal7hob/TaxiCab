@@ -21,15 +21,6 @@ public class PassengerMovement : MonoBehaviour {
         playerVehcile = GameObject.FindGameObjectWithTag("Player");
         pedestrianAnimator = GetComponent<Animator>();
         Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
-
-        //if(materialNumber == 0)
-        //    passengerMatChanging.GetComponent<Renderer>().material = passengerMaterials[0];
-        //else if(materialNumber == 1)
-        //    passengerMatChanging.GetComponent<Renderer>().material = passengerMaterials[1];
-        //else if (materialNumber == 2)
-        //    passengerMatChanging.GetComponent<Renderer>().material = passengerMaterials[2];
-
-        //Debug.Log( passengerMatChanging.GetComponent<Renderer>().material);
     }
 
     //// Update is called once per frame
