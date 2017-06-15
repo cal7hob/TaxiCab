@@ -19,7 +19,7 @@ namespace TinHead_Developer
                 return instance;
             }
         }
-
+        int TotalTime;
         public GameState GameStatus;
 
         public GameObject[] Players;
@@ -40,6 +40,17 @@ namespace TinHead_Developer
             Debug.Log("Time Decrement Called");
             //seconds -= 10;
             CurrentTime -= 10;
+        }
+        public int CalculatedRemainingTime()
+        {
+
+            
+            // return (CurrentTime /) * 100;
+            int temp = (int)(((float)CurrentTime / TotalTime) * 100); 
+            Debug.Log(temp);
+
+            return temp;
+
         }
 
         public int objective
@@ -83,7 +94,7 @@ namespace TinHead_Developer
 
             Instantiate(GameManager.Instance.Gameplaylevel[GameManager.Instance.level].Level);
             EventManager.StatusEvent("Instruction");
-            CurrentTime = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].time;
+         TotalTime  = CurrentTime = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].time;
             //   EventManager.GameStatus += CheckGameStatus;
 
         }

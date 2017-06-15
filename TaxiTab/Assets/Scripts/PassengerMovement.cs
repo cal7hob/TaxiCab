@@ -68,6 +68,7 @@ public class PassengerMovement : MonoBehaviour {
         PassengerManager.Instance.route++;
         PassengerManager.Instance.singleInstance = true;
         PassengerManager.Instance.droppedPassengers++;
+        HUDManager.Instance.NumberOfPassangerDroped(PassengerManager.Instance.droppedPassengers);
         Debug.Log(PassengerManager.Instance.droppedPassengers);
     }
 }

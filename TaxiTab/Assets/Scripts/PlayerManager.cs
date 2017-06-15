@@ -39,7 +39,9 @@ public class PlayerManager : MonoBehaviour {
         {
             Debug.Log("Collided with the Car! Time Decreased");
             //Time - 10
+            HUDManager.Instance.carHited++;
             LevelManager.Instance.TimeDecrement();
+           
         }
     }
 }

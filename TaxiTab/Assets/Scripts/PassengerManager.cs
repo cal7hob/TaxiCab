@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TinHead_Developer;
 using UnityEngine;
 
 public class PassengerManager : MonoBehaviour
@@ -124,5 +125,6 @@ public class PassengerManager : MonoBehaviour
     private void LevelComplete()
     {
         Debug.Log("Level Completed");
+        HUDManager.Instance.CalculateStars();
     }
 }
