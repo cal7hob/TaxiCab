@@ -127,4 +127,5 @@ public class PassengerManager : MonoBehaviour
         Debug.Log("Level Completed");
         HUDManager.Instance.CalculateStars();
     }
+    
 }
