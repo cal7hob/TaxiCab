@@ -40,6 +40,7 @@ namespace TinHead_Developer
             Debug.Log("Time Decrement Called");
             //seconds -= 10;
             CurrentTime -= 10;
+            TimeUI.GetComponent<Animator>().SetTrigger("isTimeDecrement");
         }
         public int CalculatedRemainingTime()
         {
