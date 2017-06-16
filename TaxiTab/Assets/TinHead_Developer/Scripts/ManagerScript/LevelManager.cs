@@ -28,6 +28,7 @@ namespace TinHead_Developer
         public GameObject Destination;
         public Text TimeUI;
 
+        [Range(0,int.MaxValue)]
         private int CurrentTime;
         private int minutes;
         private int seconds;
@@ -41,6 +42,7 @@ namespace TinHead_Developer
             //seconds -= 10;
             CurrentTime -= 10;
             TimeUI.GetComponent<Animator>().SetTrigger("isTimeDecrement");
+           
         }
         public int CalculatedRemainingTime()
         {
@@ -88,7 +90,10 @@ namespace TinHead_Developer
 
         void Update()
         {
-
+            //if (CurrentTime <= 0)
+            //{
+            //    GameOver.Instance.EnableGameOverText();
+            //}
         }
         public void ActivateLevel()
         {

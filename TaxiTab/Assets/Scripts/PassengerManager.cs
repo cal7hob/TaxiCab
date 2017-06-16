@@ -67,7 +67,9 @@ public class PassengerManager : MonoBehaviour
                 DroppingPoint.transform.position = endingCoordinates[0].position;
                 DroppingPoint.SetActive(false);
                 passengerSingle.transform.position = pickUpFootPathPoints[0].position;
+
                 DropFootPath.transform.position = dropFootPathPoints[0].position;
+               // DropFootPath.transform.rotation = dropFootPathPoints[0].rotation;
                 passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0,5)];
             }
 

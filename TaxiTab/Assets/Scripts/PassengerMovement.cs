@@ -36,9 +36,10 @@ public class PassengerMovement : MonoBehaviour {
     }
     public void DropPassenger()
     {
+        this.gameObject.transform.rotation = Quaternion.identity;
         Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
         this.gameObject.SetActive(true);
-        this.gameObject.transform.position = dropPoint.transform.position;
+        this.gameObject.transform.position =dropPoint.transform.position;
         target = DropFootPath;
         pedestrianAnimator.SetBool("IsRunning", true);
     }
