@@ -319,7 +319,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764970156843772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 142.6, y: -2.406, z: -35.58}
+  m_LocalPosition: {x: 79.3, y: -1.03, z: -63.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4150385593795556}
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gameplaylevel:
-  - Level: {fileID: 1266208619451672, guid: 566bcc24678fff4448a3d0af5efa649f, type: 2}
+  - Level: {fileID: 1459929393385966}
     IsPlayerSpawn: 1
     IsDestination: 0
     ContainInstructions: 0
@@ -611,18 +611,18 @@ MonoBehaviour:
     SpawnPoint: {fileID: 4077294992766356}
     Destination: {fileID: 0}
     time: 500
-    Objective: 1
+    Objective: 3
     Instruction: {fileID: 0}
     Coins: 0
     LevelLocked: 0
   - Level: {fileID: 0}
-    IsPlayerSpawn: 0
+    IsPlayerSpawn: 1
     IsDestination: 0
     ContainInstructions: 0
-    TimeBased: 0
-    SpawnPoint: {fileID: 0}
+    TimeBased: 1
+    SpawnPoint: {fileID: 4645465505966916}
     Destination: {fileID: 0}
-    time: 0
+    time: 100
     Objective: 1
     Instruction: {fileID: 0}
     Coins: 0
@@ -838,7 +838,7 @@ MonoBehaviour:
   IsCoinBased: 1
   TotalScene: 4
   level: 0
-  CurrentScene: 0
+  CurrentScene: 3
   Scenes:
   - {fileID: 1977765946225154, guid: 2fa6f9bec6050684bad9540a3880bc4e, type: 2}
   - {fileID: 1415476918733722, guid: 29bd51fe6cd3f004b9b3f5dbf05dcdb8, type: 2}

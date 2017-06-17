@@ -1,10 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TinHead_Developer;
 public class PassengerMovement : MonoBehaviour {
 
-    public GameObject playerVehcile;
     public Transform dropPoint;
     public Transform DropFootPath;
     public GameObject passengerMatChanging;
@@ -18,29 +17,31 @@ public class PassengerMovement : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        playerVehcile = GameObject.FindGameObjectWithTag("Player");
+       // LevelManager.Instance.Player = LevelManager.Instance.Player;
         pedestrianAnimator = GetComponent<Animator>();
-        Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
+        Physics.IgnoreCollision(LevelManager.Instance.Player.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
     }
 
     //// Update is called once per frame
     void Update()
     {
-        transform.LookAt(target);
+      //  transform.LookAt(target);
     }
     public void PickupPassenger()
-    {
+    {   
+        transform.LookAt(LevelManager.Instance.Player.transform);
         pedestrianAnimator.SetBool("IsRunning", true);
-        target = playerVehcile.transform;
-        Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), false);
+        target = LevelManager.Instance.Player.transform;
+        Physics.IgnoreCollision(LevelManager.Instance.Player.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), false);
     }
     public void DropPassenger()
     {
         this.gameObject.transform.rotation = Quaternion.identity;
-        Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
+        Physics.IgnoreCollision(LevelManager.Instance.Player.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), true);
         this.gameObject.SetActive(true);
         this.gameObject.transform.position =dropPoint.transform.position;
         target = DropFootPath;
+        transform.LookAt(target);
         pedestrianAnimator.SetBool("IsRunning", true);
     }
 
@@ -60,15 +61,12 @@ public class PassengerMovement : MonoBehaviour {
            // Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), false);
             ChangeRoute();
         }
-
-
     }
 
     void ChangeRoute()
-    {
-        PassengerManager.Instance.route++;
-        PassengerManager.Instance.singleInstance = true;
+    {   
         PassengerManager.Instance.droppedPassengers++;
+        LevelManager.Instance.objective--;
         HUDManager.Instance.NumberOfPassangerDroped(PassengerManager.Instance.droppedPassengers);
         Debug.Log(PassengerManager.Instance.droppedPassengers);
     }

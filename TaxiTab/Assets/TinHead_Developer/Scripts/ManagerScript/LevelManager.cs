@@ -34,7 +34,7 @@ namespace TinHead_Developer
         private int seconds;
 		public RCC_Camera Camera;
         public InGameUi InGameUi;
-
+        public GameObject MiniMap;
 
         public void TimeDecrement()
         {
@@ -65,8 +65,11 @@ namespace TinHead_Developer
             set
             {
                 GameManager.Instance.Gameplaylevel[GameManager.Instance.level].Objective = value;
+                PassengerManager.Instance.PassengerCounter++;
+                PassengerManager.Instance.route++;
+                PassengerManager.Instance.PassengerRouteSpawner();
                 if (GameManager.Instance.Gameplaylevel[GameManager.Instance.level].Objective <= 0)
-                    GameComplete();
+                  StartCoroutine(  GameComplete());
                }
         }
         //From here on the functions are scripted and no more variable declaration is done
@@ -99,17 +102,18 @@ namespace TinHead_Developer
         {
 
             Instantiate(GameManager.Instance.Gameplaylevel[GameManager.Instance.level].Level);
+            ChangeDayNighy(GameManager.Instance.level);
             EventManager.StatusEvent("Instruction");
-         TotalTime  = CurrentTime = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].time;
+            TotalTime  = CurrentTime = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].time;
             //   EventManager.GameStatus += CheckGameStatus;
 
         }
         public void PlaceStartingData()
         {         
             //Player StartingData
-			CurrentPlayer=GameManager.Instance.SelectedCar;
-            GameObject Player = Instantiate(Players[CurrentPlayer]);
-			Camera.playerCar = Player.transform;
+            Player = Instantiate(Players[CurrentPlayer]);
+            GameObject.FindObjectOfType<bl_MiniMap>().m_Target = Player;
+            Camera.playerCar = Player.transform;
             if (GameManager.Instance.Gameplaylevel[GameManager.Instance.level].IsPlayerSpawn == true)
             {
                 Player.transform.position = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].SpawnPoint.transform.position;
@@ -126,6 +130,15 @@ namespace TinHead_Developer
             if (GameManager.Instance.Gameplaylevel[GameManager.Instance.level].TimeBased)
             {
                 InvokeRepeating("TimeStart", 0.0f, 1.0f);
+            }
+        }
+        public void ChangeDayNighy(int level)
+        {
+            if (level == 1)
+            {
+
+
+
             }
         }
         public void CheckGameStatus(string Status)
@@ -154,11 +167,9 @@ namespace TinHead_Developer
                     Time.timeScale = 0;
                     GameFailed();
                     break;
-                case "Cinematic":
-                 
+                case "Cinematic":                
                     Cinematic();
                     break;
-
                 default:
                     Debug.LogWarning("Something not right with the instruction");
                     break;
@@ -179,10 +190,13 @@ namespace TinHead_Developer
             
         }
 
-        public void GameComplete()
+        IEnumerator GameComplete()
         {
+            yield return new WaitForSeconds(2.0f);
             InGameUi.LevelComplete.SetActive(true);
-            if(GameManager.Instance.IsCoinBased)
+            HUDManager.Instance.CalculateStars();
+
+            if (GameManager.Instance.IsCoinBased)
             {
 
             }
@@ -206,14 +220,16 @@ namespace TinHead_Developer
         }
 		public void Restart(){
 
+
 		}
 		public void Resume(){
 
+
 		}
 		public void Pause(){
+
 		}
 		public void MainMenu(){
-
 
 		}
 

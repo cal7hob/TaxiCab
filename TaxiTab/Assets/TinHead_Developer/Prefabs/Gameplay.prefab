@@ -653,6 +653,7 @@ GameObject:
   - component: {fileID: 222358869728139048}
   - component: {fileID: 114495605062804158}
   - component: {fileID: 114754208048769736}
+  - component: {fileID: 95427206208479000}
   m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
@@ -1001,6 +1002,23 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1173330995582478}
   m_Enabled: 1
+--- !u!95 &95427206208479000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1736536440201430}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3499235e9138f184d9339359505fc0dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114008144361178266
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65362,6 +65380,7 @@ MonoBehaviour:
     LoadingScreen: {fileID: 0}
     Cinematic: {fileID: 0}
     HelpScreen: {fileID: 1677652978191408}
+  MiniMap: {fileID: 0}
 --- !u!114 &114685154280610260
 MonoBehaviour:
   m_ObjectHideFlags: 1

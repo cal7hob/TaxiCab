@@ -11,7 +11,7 @@ public class PassengerManager : MonoBehaviour
     public int droppedPassengers;
 
     static System.Random rnd;
-
+    public int PassengerCounter = 0;
     public GameObject PickUpPoint;
     public GameObject DroppingPoint;
     public GameObject DropFootPath;
@@ -20,7 +20,6 @@ public class PassengerManager : MonoBehaviour
     public List<Material> passengersList;
 
 
-    public bool singleInstance = true;
     public List<Transform> startingCoordinates;
     public List<Transform> endingCoordinates;
     public List<Transform> pickUpFootPathPoints;
@@ -52,64 +51,27 @@ public class PassengerManager : MonoBehaviour
     //        DontDestroyOnLoad(gameObject);
     //        instance = this;
     //    }
-
-
     //}
 
-    void Update()
+ 
+    public void PassengerRouteSpawner()
     {
-        if (singleInstance)
-        {
-            if (route == 0)
-            {
-                PickUpPoint.transform.position = startingCoordinates[0].position;
-                PickUpPoint.SetActive(true);
-                DroppingPoint.transform.position = endingCoordinates[0].position;
-                DroppingPoint.SetActive(false);
-                passengerSingle.transform.position = pickUpFootPathPoints[0].position;
+        PickUpPoint.transform.position = startingCoordinates[PassengerCounter].position;
+        PickUpPoint.SetActive(true);
+        DroppingPoint.transform.position = endingCoordinates[PassengerCounter].position;
+        DroppingPoint.SetActive(false);
+        passengerSingle.transform.position = pickUpFootPathPoints[PassengerCounter].position;
 
-                DropFootPath.transform.position = dropFootPathPoints[0].position;
-               // DropFootPath.transform.rotation = dropFootPathPoints[0].rotation;
-                passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0,5)];
-            }
-
-            else if (route == 1)
-            {
-                PickUpPoint.transform.position = startingCoordinates[1].position;
-                PickUpPoint.SetActive(true);
-                DroppingPoint.transform.position = endingCoordinates[1].position;
-                DroppingPoint.SetActive(false);
-                passengerSingle.transform.position = pickUpFootPathPoints[1].position;
-                DropFootPath.transform.position = dropFootPathPoints[1].position;
-                passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0, 5)];
-            }
-            else if (route == 2)
-            {
-                PickUpPoint.transform.position = startingCoordinates[2].position;
-                PickUpPoint.SetActive(true);
-                DroppingPoint.transform.position = endingCoordinates[2].position;
-                DroppingPoint.SetActive(false);
-                passengerSingle.transform.position = pickUpFootPathPoints[2].position;
-                DropFootPath.transform.position = dropFootPathPoints[2].position;
-                passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0, 5)];
-            }
-
-            else if (route == 3)
-            {
-                DroppingPoint.SetActive(false);
-                LevelComplete();
-            }
-
-            singleInstance = false;
-        }
-
+        DropFootPath.transform.position = dropFootPathPoints[PassengerCounter].position;
+        // DropFootPath.transform.rotation = dropFootPathPoints[0].rotation;
+        passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0, 5)];
     }
-
     // Use this for initialization
     void Start()
     {
         PickUpPoint = GameObject.FindGameObjectWithTag("Pickup");
         DroppingPoint = GameObject.FindGameObjectWithTag("DropPoint");
+        PassengerRouteSpawner();
         DroppingPoint.SetActive(false);
 
         rnd = new System.Random();
@@ -122,12 +84,5 @@ public class PassengerManager : MonoBehaviour
     //       {
     //           LevelComplete();
     //       }
-    //}
-
-    private void LevelComplete()
-    {
-        Debug.Log("Level Completed");
-        HUDManager.Instance.CalculateStars();
-    }
-    
+    //}  
 }
