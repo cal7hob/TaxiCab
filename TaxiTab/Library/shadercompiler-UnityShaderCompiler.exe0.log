@@ -1,6 +1,16 @@
-Base path: E:/Program Files/Unity2/Editor/Data
+Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
-Cmd: compileSnippet
-  api=4 type=0 insize=560 outsize=826 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=560 outsize=422 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA ok=1
+Cmd: preprocess
+  insize=1004 outsize=475 ok=1
+Cmd: preprocess
+  insize=2462 outsize=1143 ok=1
+Cmd: preprocess
+  insize=1936 outsize=1043 ok=1
+Cmd: preprocess
+  insize=2434 outsize=1111 ok=1
+Cmd: preprocess
+  insize=782 outsize=782 ok=1
+Cmd: preprocess
+  insize=550 outsize=550 ok=1
+Cmd: preprocess
+  insize=1004 outsize=1426 ok=1
