@@ -20,7 +20,11 @@ public class GameOverColliderCheck : MonoBehaviour {
         Debug.Log("Player hit game over");
         if(other.gameObject.tag == "Player")
         {
-            LevelManager.Instance.GameFailed();
+           // if (other.gameObject.GetComponent<RCC_CarControllerV3>().speed>= 30)
+            {
+                LevelManager.Instance.GameFailed();
+            }
+            
         }
     }
 }

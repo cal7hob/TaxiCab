@@ -206,6 +206,7 @@
      <Compile Include="Assets\UGUIMiniMap\Content\Scripts\Util\bl_SnapShot.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Scripts\bl_MMExampleManager.cs" />
      <Compile Include="Assets\UGUIMiniMap\Example\Scripts\bl_RandomBot.cs" />
+     <Compile Include="Assets\destoryer.cs" />
      <Compile Include="Assets\iTS\Demo\Locomotion Setup\Locomotion\Scripts\Locomotion.cs" />
      <Compile Include="Assets\iTS\Demo\Locomotion Setup\Scripts\PedestrianController.cs" />
      <Compile Include="Assets\iTS\Simple Car Physics\Scripts\TSAntiRollBar.cs" />

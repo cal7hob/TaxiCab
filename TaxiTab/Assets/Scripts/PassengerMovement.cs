@@ -9,6 +9,7 @@ public class PassengerMovement : MonoBehaviour {
 
     public Transform target;
     private Animator pedestrianAnimator;
+    public GameObject ParticalFx;
 
     // Use this for initialization
     void Start()
@@ -48,13 +49,15 @@ public class PassengerMovement : MonoBehaviour {
            col.GetComponent<PlayerManager>().StartCar();
 
             //this.gameObject.GetComponent<MeshRenderer>().enabled = false;
+            Instantiate(ParticalFx, new Vector3(this.transform.position.x, 5, this.transform.position.z), Quaternion.identity);
             this.gameObject.SetActive(false);
         }
         if (col.gameObject.tag == "FootPath")
         {
             Debug.Log("Passenger reached destination");
             pedestrianAnimator.SetBool("IsRunning", false);
-           // Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), false);
+            // Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), false);
+            Instantiate(ParticalFx, new Vector3(this.transform.position.x,5, this.transform.position.z), Quaternion.identity);
             ChangeRoute();
         }
 
