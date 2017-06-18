@@ -10,7 +10,7 @@ public class PassengerManager : MonoBehaviour
     int totalPassengers = 1;
     public int droppedPassengers;
 
-    static System.Random rnd;
+    public static System.Random rnd;
     public int PassengerCounter = 0;
     public GameObject PickUpPoint;
     public GameObject DroppingPoint;
@@ -56,25 +56,32 @@ public class PassengerManager : MonoBehaviour
  
     public void PassengerRouteSpawner()
     {
-        PickUpPoint.transform.position = startingCoordinates[PassengerCounter].position;
-        PickUpPoint.SetActive(true);
-        DroppingPoint.transform.position = endingCoordinates[PassengerCounter].position;
-        DroppingPoint.SetActive(false);
-        passengerSingle.transform.position = pickUpFootPathPoints[PassengerCounter].position;
+        if (PassengerCounter < startingCoordinates.Count)
+        {
+            PickUpPoint.transform.position = startingCoordinates[PassengerCounter].position;
+            PickUpPoint.GetComponent<bl_MiniMapItem>().ShowItem();
+            PickUpPoint.SetActive(true);
+            DroppingPoint.transform.position = endingCoordinates[PassengerCounter].position;
+            DroppingPoint.GetComponent<bl_MiniMapItem>().HideItem();
+            DroppingPoint.SetActive(false);
+            passengerSingle.transform.position = pickUpFootPathPoints[PassengerCounter].position;
 
-        DropFootPath.transform.position = dropFootPathPoints[PassengerCounter].position;
-        // DropFootPath.transform.rotation = dropFootPathPoints[0].rotation;
-        passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[rnd.Next(0, 5)];
+            DropFootPath.transform.position = dropFootPathPoints[PassengerCounter].position;
+            var temp = rnd.Next(0, 5);
+            Debug.Log(temp + "Random");
+            passengerSingle.GetComponentInChildren<Renderer>().material = passengersList[temp];
+        }
     }
     // Use this for initialization
     void Start()
     {
-        PickUpPoint = GameObject.FindGameObjectWithTag("Pickup");
-        DroppingPoint = GameObject.FindGameObjectWithTag("DropPoint");
+     //   PickUpPoint = GameObject.FindGameObjectWithTag("Pickup");
+     //   DroppingPoint = GameObject.FindGameObjectWithTag("DropPoint");
+        rnd = new System.Random();
+
         PassengerRouteSpawner();
         DroppingPoint.SetActive(false);
 
-        rnd = new System.Random();
     }
 
     //TODO:

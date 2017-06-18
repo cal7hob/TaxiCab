@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TinHead_Developer;
 public class GameOverColliderCheck : MonoBehaviour {
 
 
@@ -20,7 +20,7 @@ public class GameOverColliderCheck : MonoBehaviour {
         Debug.Log("Player hit game over");
         if(other.gameObject.tag == "Player")
         {
-            GameOver.Instance.EnableGameOverText();
+            LevelManager.Instance.GameFailed();
         }
     }
 }

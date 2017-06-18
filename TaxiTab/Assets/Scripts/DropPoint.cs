@@ -24,6 +24,7 @@ public class DropPoint : MonoBehaviour
             pedestrian.GetComponent<PassengerMovement>().DropPassenger();
             Car = other.GetComponent<PlayerManager>();
             Car.StopCar();
+            GetComponent<bl_MiniMapItem>().HideItem();
             this.gameObject.SetActive(false);
             //Invoke("ChangeRoute", 2f);
            

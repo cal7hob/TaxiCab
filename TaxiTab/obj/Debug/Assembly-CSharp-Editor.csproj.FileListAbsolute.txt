@@ -152,7 +152,6 @@ C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Mono.Cecil.Mdb.dll
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Unity.CecilTools.dll
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Mono.Cecil.Pdb.dll
-C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.xml
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.xml
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Advertisements.xml

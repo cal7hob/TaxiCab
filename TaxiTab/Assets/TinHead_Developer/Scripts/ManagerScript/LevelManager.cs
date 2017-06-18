@@ -36,6 +36,26 @@ namespace TinHead_Developer
         public InGameUi InGameUi;
         public GameObject MiniMap;
 
+        private int pendestrianKilled;
+
+        public int PendestrianKilled
+        {
+            get
+            {
+                return pendestrianKilled;
+            }
+            set
+            {
+                pendestrianKilled = value;
+
+                if (pendestrianKilled >= 2)
+                {
+
+                    Invoke("GameFailed", 2);
+                }
+         
+            }
+        }
         public void TimeDecrement()
         {
             Debug.Log("Time Decrement Called");

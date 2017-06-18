@@ -25,6 +25,9 @@ public class PickUpPoint : MonoBehaviour {
 
             Debug.Log("hi");
             PassengerManager.Instance.DroppingPoint.SetActive(true);
+            PassengerManager.Instance.DroppingPoint.GetComponent<bl_MiniMapItem>().ShowItem();
+
+            GetComponent<bl_MiniMapItem>().HideItem();
             this.gameObject.SetActive(false);
         }
     }

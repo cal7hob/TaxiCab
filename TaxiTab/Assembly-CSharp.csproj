@@ -55,6 +55,7 @@
      <Compile Include="Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
      <Compile Include="Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\PadestrianController.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCHoodCamera.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCResetScene.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCWheelCamera.cs" />

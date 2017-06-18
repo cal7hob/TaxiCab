@@ -6,10 +6,6 @@ public class PassengerMovement : MonoBehaviour {
 
     public Transform dropPoint;
     public Transform DropFootPath;
-    public GameObject passengerMatChanging;
-    public int materialNumber = 0;
-
-    public List<Material> passengerMaterials;
 
     public Transform target;
     private Animator pedestrianAnimator;
@@ -61,6 +57,7 @@ public class PassengerMovement : MonoBehaviour {
            // Physics.IgnoreCollision(playerVehcile.GetComponent<BoxCollider>(), gameObject.GetComponent<BoxCollider>(), false);
             ChangeRoute();
         }
+
     }
 
     void ChangeRoute()
