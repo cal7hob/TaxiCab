@@ -681,8 +681,8 @@ MonoBehaviour:
   GameContainsRewardedVideo: 0
   IsCoinBased: 1
   TotalScene: 6
-  level: 1
-  CurrentScene: 3
+  level: 0
+  CurrentScene: 0
   Scenes:
   - {fileID: 1977765946225154, guid: 2fa6f9bec6050684bad9540a3880bc4e, type: 2}
   - {fileID: 1415476918733722, guid: 29bd51fe6cd3f004b9b3f5dbf05dcdb8, type: 2}

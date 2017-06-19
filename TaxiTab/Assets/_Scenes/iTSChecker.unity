@@ -1,0 +1,2626 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 3
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_ShadowMaskMode: 2
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &200784223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 200784225}
+  - component: {fileID: 200784224}
+  m_Layer: 0
+  m_Name: TrafficSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &200784224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200784223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -260812457, guid: ac3101a53374db749b8f8f604905610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initializeOnStart: 1
+  cars:
+  - cars: {fileID: 1724180188901750, guid: aac9d8d1898f82244a04071191315fe6, type: 2}
+    frequency: 5
+  - cars: {fileID: 1212862079291006, guid: e7d853903a9482142b645e51ebffb2e0, type: 2}
+    frequency: 2
+  - cars: {fileID: 1062432526360062, guid: 8c0259386f9609b4995058e70bdd8eb9, type: 2}
+    frequency: 5
+  - cars: {fileID: 1747437171586222, guid: fd758bc5c88c4ea4f870f03b45f9d67d, type: 2}
+    frequency: 2
+  - cars: {fileID: 1466343965125160, guid: aaae5b89787a98c42b2e60d9aebedcc6, type: 2}
+    frequency: 2
+  - cars: {fileID: 1985287594661330, guid: 288d644579f800f4b95fd0171693b828, type: 2}
+    frequency: 6
+  totalAmountOfCars: 5
+  amount: 5
+  maxDistance: 150
+  offset: 140
+  closerRange: 25
+  refreshTime: 0.02
+  manager: {fileID: 1468580998}
+  unusedCarsPosition: {x: 50000, y: 50000, z: 50000}
+  respawnIfUpSideDown: 0
+  respawnUpSideDownTime: 2
+  respawnAltitude: 0.3
+  disableMultiThreading: 0
+  globalPointOffset: {x: 0, y: 0, z: 0}
+  carsCheckedPerFrame: 50
+  initialNotSpawningRadius: 10
+  transformSpawningCheck: []
+--- !u!4 &200784225
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200784223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &412963842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 412963846}
+  - component: {fileID: 412963845}
+  - component: {fileID: 412963844}
+  - component: {fileID: 412963843}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &412963843
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412963842}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: cea0474ab4ce83042b5a03454ed62f24, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &412963844
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412963842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &412963845
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412963842}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &412963846
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 412963842}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!1 &1195823375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1195823380}
+  - component: {fileID: 1195823379}
+  - component: {fileID: 1195823378}
+  - component: {fileID: 1195823377}
+  - component: {fileID: 1195823376}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1195823376
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195823375}
+  m_Enabled: 1
+--- !u!124 &1195823377
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195823375}
+  m_Enabled: 1
+--- !u!92 &1195823378
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195823375}
+  m_Enabled: 1
+--- !u!20 &1195823379
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195823375}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1195823380
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195823375}
+  m_LocalRotation: {x: 0.70710665, y: -0, z: -0, w: 0.70710695}
+  m_LocalPosition: {x: -1.1237425, y: 149.95848, z: 1.9755229}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1412991362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1412991364}
+  - component: {fileID: 1412991363}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1412991363
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412991362}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1412991364
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1412991362}
+  m_LocalRotation: {x: 0.7963135, y: -0.2779313, z: 0.036072228, w: 0.53603894}
+  m_LocalPosition: {x: -19.56, y: 3, z: -11.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 119.101, y: 29.637985, z: 56.160995}
+--- !u!1 &1468580997
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1468581000}
+  - component: {fileID: 1468580999}
+  - component: {fileID: 1468580998}
+  m_Layer: 0
+  m_Name: iTSManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1468580998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468580997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1387599191, guid: ac3101a53374db749b8f8f604905610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lanes:
+  - conectorA: {x: 38.27652, y: -0.0000040305763, z: -33.81093}
+    conectorB: {x: 38.45879, y: 0.000004052304, z: 33.993195}
+    middlePoints:
+    - {x: 38.367653, y: 0.000000010863914, z: 0.09113312}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: 38.276524, y: -0.0000040305777, z: -33.81094}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.283092, y: -0.000003739218, z: -31.366838}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.4441102
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.291756, y: -0.0000033552528, z: -28.145905}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.2209456
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.302048, y: -0.0000028985946, z: -24.315178}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8307405
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.313538, y: -0.0000023891578, z: -20.041712}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2734814
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.32577, y: -0.000001846856, z: -15.492553}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5491757
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.338287, y: -0.000001291603, z: -10.834752}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6578174
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.35065, y: -0.00000074331194, z: -6.2353535}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5994153
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.36766, y: 0.000000010863491, z: 0.091129586}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 6.326506
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.378975, y: 0.0000005125104, z: 4.299249}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2081347
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.39111, y: 0.0000010505037, z: 8.812264}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5130315
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.403606, y: 0.0000016049289, z: 13.463121}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6508737
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.41603, y: 0.0000021558733, z: 18.084778}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.621673
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.42793, y: 0.0000026834223, z: 22.51018}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.425418
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.43885, y: 0.0000031676616, z: 26.572275}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.0621104
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.44834, y: 0.0000035886796, z: 30.10403}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.5317683
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 38.458797, y: 0.0000040523046, z: 33.9932}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.889178
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: 38.45879, y: 0.000004052304, z: 33.993195}
+      conectorB: {x: 26.622398, y: 0.0000047476055, z: 39.825806}
+      middlePoints:
+      - {x: 37.701534, y: 0.000004641311, z: 38.934143}
+      points:
+      - point: {x: 38.458797, y: 0.0000040523046, z: 33.9932}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 38.751038, y: 0.000004311413, z: 36.166756}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.1931155
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 37.701538, y: 0.000004641312, z: 38.934155}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.9597206
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 35
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 35.892536, y: 0.0000046965247, z: 39.39731}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 1.8673509
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 33.29405, y: 0.0000047249564, z: 39.635815}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.6094108
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 30.47495, y: 0.0000047366116, z: 39.73358}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.8207922
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 28.004122, y: 0.0000047414965, z: 39.77456}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.4711688
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 26.622404, y: 0.0000047476065, z: 39.825817}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 1.3826734
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 1
+      previousLane: 0
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 0
+      totalDistance: 16.304232
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 67.80438
+    maxTotalOcupation: 75
+  - conectorA: {x: 26.622398, y: 0.0000047476055, z: 39.825806}
+    conectorB: {x: -24.11605, y: 0.0000047910617, z: 40.190346}
+    middlePoints:
+    - {x: 5.7690496, y: 0.000004769334, z: 40.008076}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: 26.622404, y: 0.0000047476065, z: 39.825817}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 24.06313, y: 0.000004750413, z: 39.849358}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.559383
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 20.551989, y: 0.0000047543585, z: 39.882454}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.5112967
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 16.339256, y: 0.000004758983, z: 39.921246}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.212911
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 11.675191, y: 0.000004763826, z: 39.961876}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6642423
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 5.7690516, y: 0.0000047693347, z: 40.008083}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 5.90632
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 1.9907242, y: 0.0000047724116, z: 40.033894}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.7784157
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -2.366627, y: 0.000004775721, z: 40.06166}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.35744
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -7.0230746, y: 0.0000047791077, z: 40.090065}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.656534
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -11.698683, y: 0.0000047824146, z: 40.117805}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6756907
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -16.113525, y: 0.0000047854855, z: 40.14357}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.414918
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -19.98766, y: 0.000004788164, z: 40.166035}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8741992
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -24.11606, y: 0.000004791063, z: 40.190357}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.128463
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: -24.11605, y: 0.0000047910617, z: 40.190346}
+      conectorB: {x: -39.18787, y: 0.0000031614493, z: 26.52016}
+      middlePoints:
+      - {x: -36.894028, y: 0.0000045550614, z: 38.210632}
+      points:
+      - point: {x: -24.11606, y: 0.000004791063, z: 40.190357}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -27.472605, y: 0.000004773724, z: 40.044903}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 3.3596947
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 28
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -32.212147, y: 0.0000047401463, z: 39.763237}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.7479043
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -36.89403, y: 0.000004555063, z: 38.21064}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.932606
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 21
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -38.526665, y: 0.000004120716, z: 34.567074}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 3.9926264
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -38.984108, y: 0.0000035579585, z: 29.846323}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.742862
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -39.18788, y: 0.00000316145, z: 26.520168}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 3.3323977
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 2
+      previousLane: 1
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 0
+      totalDistance: 25.108091
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 50.739815
+    maxTotalOcupation: 75
+  - conectorA: {x: -39.18787, y: 0.0000031614493, z: 26.52016}
+    conectorB: {x: -39.370144, y: -0.0000041174885, z: -34.54}
+    middlePoints:
+    - {x: -39.279007, y: -0.0000004780196, z: -4.00992}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: -39.18788, y: 0.00000316145, z: 26.520168}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.195305, y: 0.0000028646507, z: 24.030436}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.489744
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.205265, y: 0.0000024674598, z: 20.698557}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.3318937
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.2171, y: 0.0000019944323, z: 16.730513}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.968062
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.230236, y: 0.0000014701235, z: 12.332292}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.3982406
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.24403, y: 0.0000009190894, z: 7.709882}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6224303
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.25788, y: 0.00000036588557, z: 3.0692708}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.640631
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.27118, y: -0.00000016493266, z: -1.3835557}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.4528465
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.279015, y: -0.0000004780199, z: -4.009922}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.626378
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.291634, y: -0.0000009819995, z: -8.23761}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2277064
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.305206, y: -0.0000015238973, z: -12.783379}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5457892
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.319107, y: -0.0000020791574, z: -17.441238}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6578803
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.332733, y: -0.000002623225, z: -22.005209}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.563991
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.345463, y: -0.0000031315446, z: -26.269302}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2641125
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.35668, y: -0.0000035795597, z: -30.027527}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.7582412
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.36578, y: -0.0000039427164, z: -33.073906}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.0463927
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -39.37015, y: -0.00000411749, z: -34.540012}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 1.4661014
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: -39.370144, y: -0.0000041174885, z: -34.54}
+      conectorB: {x: -35.907024, y: -0.000004834519, z: -40.554893}
+      middlePoints:
+      - {x: -38.875824, y: -0.0000047310996, z: -39.68735}
+      points:
+      - point: {x: -39.37015, y: -0.00000411749, z: -34.540012}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -38.87583, y: -0.0000047311014, z: -39.68736}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 5.1710277
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -35.907032, y: -0.00000483452, z: -40.554897}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 3.0929651
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 3
+      previousLane: 2
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 0
+      totalDistance: 8.263992
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 61.06044
+    maxTotalOcupation: 75
+  - conectorA: {x: -35.907024, y: -0.000004834519, z: -40.554893}
+    conectorB: {x: 32.261642, y: -0.000004725878, z: -39.643543}
+    middlePoints:
+    - {x: -1.822691, y: -0.0000047801987, z: -40.09922}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: -35.907032, y: -0.00000483452, z: -40.554897}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -33.465412, y: -0.000004830629, z: -40.52226}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.441838
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.25033, y: -0.0000048255047, z: -40.479275}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.2153695
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -26.427013, y: -0.000004819412, z: -40.42816}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8236582
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -22.160704, y: -0.0000048126126, z: -40.371128}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2666907
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -17.616608, y: -0.0000048053707, z: -40.310375}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5445023
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -12.959955, y: -0.0000047979493, z: -40.24812}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6570687
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -8.355971, y: -0.000004790612, z: -40.18657}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6043954
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -3.969879, y: -0.0000047836215, z: -40.127934}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.386484
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -1.8226898, y: -0.0000047801996, z: -40.099228}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.147381
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 2.3840852, y: -0.0000047734957, z: -40.042988}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.207151
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 6.8949776, y: -0.0000047663066, z: -39.98268}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5112953
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 11.544753, y: -0.0000047588956, z: -39.920517}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6501913
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 16.168205, y: -0.0000047515277, z: -39.85871}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.623865
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 20.600096, y: -0.0000047444646, z: -39.799458}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.4322867
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 24.675198, y: -0.00000473797, z: -39.744976}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.075466
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 28.22829, y: -0.000004732307, z: -39.69747}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.5534105
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 31.094154, y: -0.0000047277395, z: -39.65916}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.8661199
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 32.261658, y: -0.0000047258786, z: -39.64355}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 1.1675925
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: 32.261642, y: -0.000004725878, z: -39.643543}
+      conectorB: {x: 38.27652, y: -0.0000040305763, z: -33.81093}
+      middlePoints:
+      - {x: 37.37405, y: -0.000004612385, z: -38.691483}
+      points:
+      - point: {x: 32.261658, y: -0.0000047258786, z: -39.64355}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 37.374058, y: -0.0000046123846, z: -38.69149}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 5.2002935
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 38.276524, y: -0.0000040305777, z: -33.81094}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.9632974
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 0
+      previousLane: 3
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 0
+      totalDistance: 10.163591
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 68.17477
+    maxTotalOcupation: 75
+  - conectorA: {x: -31.168028, y: -0.000004139217, z: -26.403141}
+    conectorB: {x: -30.803492, y: 0.0000030310803, z: 25.426546}
+    middlePoints:
+    - {x: -30.98576, y: -0.00000055406827, z: -4.6478624}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: -31.168034, y: -0.0000031475, z: -26.403145}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -31.145689, y: -0.0000028431623, z: -23.850176}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.5530667
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -31.114407, y: -0.000002426878, z: -20.358131}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.4921844
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -31.077606, y: -0.0000019285117, z: -16.17753}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.1807632
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -31.038685, y: -0.0000013779268, z: -11.558889}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.618805
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.985767, y: -0.0000005540686, z: -4.6478653}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 6.9112267
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.960127, y: -0.000000099321824, z: -0.83317196}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8147795
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.932552, y: 0.00000042162554, z: 3.536852}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.3701105
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.904325, y: 0.0000009764692, z: 8.191218}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.654452
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.876728, y: 0.0000015329055, z: 12.858945}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.667808
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.851057, y: 0.0000020586303, z: 17.269047}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.4101768
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.82859, y: 0.0000025213403, z: 21.15054}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8815575
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.81062, y: 0.0000028887316, z: 24.23244}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.081954
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -30.8035, y: 0.000003031081, z: 25.426552}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 1.1941264
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: -30.803492, y: 0.0000030310803, z: 25.426546}
+      conectorB: {x: -26.064487, y: 0.0000037263815, z: 31.25916}
+      middlePoints:
+      - {x: -30.064959, y: 0.0000036235076, z: 30.396187}
+      points:
+      - point: {x: -30.8035, y: 0.000003031081, z: 25.426552}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -30.064968, y: 0.0000036235083, z: 30.396196}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 5.024221
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -26.064499, y: 0.0000037263828, z: 31.259169}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.0924993
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 5
+      previousLane: 4
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 1
+      totalDistance: 9.11672
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 51.831013
+    maxTotalOcupation: 75
+  - conectorA: {x: -26.064487, y: 0.0000037263815, z: 31.25916}
+    conectorB: {x: 22.443232, y: 0.0000037046536, z: 31.076893}
+    middlePoints:
+    - {x: 1.1847553, y: 0.0000037155176, z: 31.168026}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: -26.064499, y: 0.0000037263828, z: 31.259169}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -23.465364, y: 0.0000037253683, z: 31.250658}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.5991483
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -19.878237, y: 0.000003723989, z: 31.23909}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.5871463
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -15.61853, y: 0.0000037223476, z: 31.225319}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.259729
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -11.001671, y: 0.0000037205477, z: 31.21022}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.616884
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -6.343086, y: 0.0000037186912, z: 31.194647}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6586113
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -1.9581785, y: 0.000003716883, z: 31.179478}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.3849335
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 1.1847559, y: 0.0000037155187, z: 31.168036}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.142955
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 5.8616934, y: 0.0000037133188, z: 31.14958}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6769743
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 10.561952, y: 0.0000037109505, z: 31.129713}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.7003
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 14.980411, y: 0.000003708632, z: 31.110264}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.418502
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 18.811956, y: 0.0000037065806, z: 31.093056}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8315845
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 22.443228, y: 0.0000037046543, z: 31.076899}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.6313112
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: 22.443232, y: 0.0000037046536, z: 31.076893}
+      conectorB: {x: 29.709877, y: 0.0000027051572, z: 22.692507}
+      middlePoints:
+      - {x: 29.468401, y: 0.0000035494431, z: 29.774897}
+      points:
+      - point: {x: 22.443228, y: 0.0000037046543, z: 31.076899}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 24.423147, y: 0.0000036903878, z: 30.95722}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 1.9835331
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 21
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 27.180084, y: 0.0000036619324, z: 30.71852}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.7672513
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 29.468405, y: 0.0000035494445, z: 29.774902}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.4752421
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 21
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 30.057606, y: 0.0000032964028, z: 27.652235}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.202924
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 29.91407, y: 0.0000029665225, z: 24.884998}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.7709568
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 29.70988, y: 0.0000027051578, z: 22.692513}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.2019796
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 6
+      previousLane: 5
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 1
+      totalDistance: 14.401887
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 48.508083
+    maxTotalOcupation: 75
+  - conectorA: {x: 29.709877, y: 0.0000027051572, z: 22.692507}
+    conectorB: {x: 30.62122, y: -0.0000031614493, z: -26.52016}
+    middlePoints:
+    - {x: 30.165548, y: -0.00000022814606, z: -1.913827}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: 29.70988, y: 0.0000027051578, z: 22.692513}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 29.757973, y: 0.0000023955893, z: 20.095661}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.5972967
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 29.82427, y: 0.0000019688277, z: 16.515726}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.580549
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 29.902903, y: 0.0000014626555, z: 12.269646}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2468085
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 29.987999, y: 0.000000914856, z: 7.6743693}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.596064
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.073694, y: 0.0000003632118, z: 3.0468416}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.628321
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.165554, y: -0.0000002281461, z: -1.9138285}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.9615207
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.244658, y: -0.00000073734816, z: -6.1853256}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2722297
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.329926, y: -0.000001286256, z: -10.789899}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.605363
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.415495, y: -0.0000018370854, z: -15.410591}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6214848
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.495491, y: -0.000002352055, z: -19.730469}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.320618
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.564043, y: -0.0000027933816, z: -23.432587}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.7027526
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 30.621227, y: -0.00000316145, z: -26.520168}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.0881033
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: 30.62122, y: -0.0000031614493, z: -26.52016}
+      conectorB: {x: 27.704914, y: -0.000003856751, z: -32.352776}
+      middlePoints:
+      - {x: 30.269243, y: -0.0000037519535, z: -31.473667}
+      points:
+      - point: {x: 30.621227, y: -0.00000316145, z: -26.520168}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 30.269249, y: -0.000003751954, z: -31.473675}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.965996
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: 27.70492, y: -0.000003856752, z: -32.352783}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.710836
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 7
+      previousLane: 6
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 1
+      totalDistance: 7.6768317
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 49.221107
+    maxTotalOcupation: 75
+  - conectorA: {x: 27.704914, y: -0.000003856751, z: -32.352776}
+    conectorB: {x: -23.148184, y: -0.0000038784788, z: -32.53504}
+    middlePoints:
+    - {x: 2.2783651, y: -0.000003867615, z: -32.44391}
+    laneWidth: 2.5
+    vehicleType: -1
+    maxSpeed: 50
+    points:
+    - point: {x: 27.70492, y: -0.000003856752, z: -32.352783}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 0
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 25.125177, y: -0.0000038578546, z: -32.362034}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 2.5797591
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 21.583895, y: -0.0000038593666, z: -32.374718}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.5413053
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 17.378042, y: -0.0000038611643, z: -32.389797}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.2058797
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 12.8046, y: -0.0000038631183, z: -32.40619}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.573472
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 8.160545, y: -0.000003865102, z: -32.42283}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.6440845
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: 2.2783628, y: -0.000003867616, z: -32.44392}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 5.8822203
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -1.9867425, y: -0.000003869438, z: -32.4592}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.265133
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -6.584132, y: -0.0000038714024, z: -32.47568}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.5974193
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -11.2168255, y: -0.0000038733815, z: -32.492283}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.632723
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -15.587858, y: -0.0000038752496, z: -32.507954}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 4.371061
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -19.400253, y: -0.0000038768785, z: -32.521618}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.8124197
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    - point: {x: -23.148191, y: -0.0000038784797, z: -32.53505}
+      reservationID: 0
+      carwhoReserved: {fileID: 0}
+      laneReservationID: -1
+      connectorReservationCount: 0
+      distanceToNextPoint: 3.7479546
+      rightParalelLaneIndex: -1
+      leftParalelLaneIndex: -1
+      maxSpeedLimit: 1000
+      otherConnectorsPoints: []
+      nearbyPoints: []
+      roadBlockAhead: 0
+    connectors:
+    - conectorA: {x: -23.148184, y: -0.0000038784788, z: -32.53504}
+      conectorB: {x: -31.168028, y: -0.000004139217, z: -26.403141}
+      middlePoints:
+      - {x: -29.998318, y: -0.0000051132365, z: -31.652245}
+      points:
+      - point: {x: -23.148191, y: -0.0000038784797, z: -32.53505}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 0
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 28
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -27.164965, y: -0.000003859667, z: -32.377235}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 4.019872
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 17.5
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -29.998323, y: -0.0000037732418, z: -31.65225}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 2.924641
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      - point: {x: -31.168034, y: -0.0000031475, z: -26.403145}
+        reservationID: 0
+        carwhoReserved: {fileID: 0}
+        laneReservationID: -1
+        connectorReservationCount: 0
+        distanceToNextPoint: 5.377858
+        rightParalelLaneIndex: -1
+        leftParalelLaneIndex: -1
+        maxSpeedLimit: 1000
+        otherConnectorsPoints: []
+        nearbyPoints: []
+        roadBlockAhead: 0
+      nextLane: 4
+      previousLane: 7
+      forcedStop: 0
+      isReserved: 0
+      isRequested: 0
+      priority: 1
+      direction: 1
+      totalDistance: 12.3223715
+      randomWeight: 0
+      vehicleType: -1
+      connectorReservedByTrafficLight: 0
+      remainingGreenLightTime: -1
+    laneLinkRight: -1
+    laneLinkLeft: -1
+    trafficDensity: 1
+    totalOcupation: 0
+    totalDistance: 50.85343
+    maxTotalOcupation: 75
+  menuSelection: 0
+  laneMenuSelection: 2
+  connectionsMenuSelection: 0
+  settingsMenuSelection: 0
+  visualLinesWidth: 5
+  resolution: 4
+  resolutionConnectors: 2.3
+  laneCurveSpeedMultiplier: 0.7
+  connectorsCurveSpeedMultiplier: 0.7
+  defaultVehicleType: -249
+  junctionsProcessed: 1
+  vehicleTypePresets:
+  - vehicleType: -249
+    name: 'Taxi Bus Light '
+  scaleFactor: 1
+--- !u!114 &1468580999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468580997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1328169117, guid: ac3101a53374db749b8f8f604905610e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1468581000
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468580997}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
