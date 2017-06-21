@@ -937,7 +937,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1894396397173886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -238.3, y: 0, z: 58.8}
+  m_LocalPosition: {x: -247, y: 0, z: 58}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4038585962636158}
@@ -43832,7 +43832,7 @@ MonoBehaviour:
     frequency: 0
   totalAmountOfCars: 50
   amount: 50
-  maxDistance: 150
+  maxDistance: 200
   offset: 140
   closerRange: 25
   refreshTime: 0.02
