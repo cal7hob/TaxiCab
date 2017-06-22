@@ -21,10 +21,16 @@ public class WaterSubmerge : MonoBehaviour {
         }
 
     }
+   
 
     void PlayerDrown()
     {
         this.gameObject.GetComponent<BoxCollider>().isTrigger = true;
-        
+        Invoke("PlayerDrown", 1f);
+
+    }
+    void notPlayerDrown()
+    {
+        this.gameObject.GetComponent<BoxCollider>().isTrigger = false;
     }
 }

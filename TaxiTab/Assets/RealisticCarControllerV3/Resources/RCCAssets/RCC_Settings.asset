@@ -13,8 +13,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toolbarSelectedIndex: 0
   fixedTimeStep: 0.02
-  maxAngularVelocity: 8
-  behaviorType: 5
+  maxAngularVelocity: 7.9
+  behaviorType: 1
   useFixedWheelColliders: 1
   controllerType: 0
   verticalInput: Vertical

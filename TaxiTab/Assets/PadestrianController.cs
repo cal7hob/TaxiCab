@@ -8,12 +8,14 @@ public class PadestrianController : MonoBehaviour {
     private Animator thisAnimator;
     private Patrol thisPatrol;
     private NavMeshAgent thisNavMeshAgent;
+    private BoxCollider thisCollider;
 
     // Use this for initialization
     void Start () {
         thisAnimator = GetComponent<Animator>();
         thisPatrol = GetComponent<Patrol>();
         thisNavMeshAgent = GetComponent<NavMeshAgent>();
+        thisCollider = GetComponent<BoxCollider>();
 
 	}
 	
@@ -36,11 +38,14 @@ public class PadestrianController : MonoBehaviour {
         thisPatrol.enabled = false;
         thisNavMeshAgent.enabled = false;
         thisAnimator.SetBool("Death_b", true);
+        thisCollider.enabled = false;
+
     }
     void revive()
     {
         thisPatrol.enabled = true;
         thisNavMeshAgent.enabled = true;
-       
+        thisCollider.enabled = true;
+
     }
 }

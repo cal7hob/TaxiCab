@@ -811,8 +811,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.9280243, y: 1.5033665, z: 6.893514}
-  m_Center: {x: -0.011405945, y: 1.0541018, z: 0.017106295}
+  m_Size: {x: 2.9280243, y: 1.2909474, z: 6.893514}
+  m_Center: {x: -0.011405945, y: 1.1603113, z: 0.017106295}
 --- !u!108 &108131017134299654
 Light:
   m_ObjectHideFlags: 1
@@ -1178,7 +1178,7 @@ MonoBehaviour:
   antiRollVertical: 500
   downForce: 25
   speed: 0
-  brake: 2500
+  brake: 7500
   maxspeed: 220
   fuelInput: 1
   currentGear: 0
@@ -1226,9 +1226,9 @@ MonoBehaviour:
   ABSAct: 0
   TCSAct: 0
   ESPAct: 0
-  ABSThreshold: 0.35
+  ABSThreshold: 0.25
   TCSThreshold: 0.25
-  TCSStrength: 1
+  TCSStrength: 0.5
   ESPThreshold: 0.25
   ESPStrength: 0.5
   steerHelperStrength: 0.1
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   overSteering: 0
   underSteering: 0
   frontCamber: 0
-  rearCamber: 0
+  rearCamber: 5
   frontSlip: 0
   rearSlip: 0
   turboBoost: 0
@@ -1392,8 +1392,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5412364
   m_SuspensionSpring:
-    spring: 40000
-    damper: 2000
+    spring: 35000
+    damper: 15000
     targetPosition: 0.4
   m_SuspensionDistance: 0.2
   m_ForceAppPointDistance: 0.1
@@ -1450,8 +1450,8 @@ WheelCollider:
   m_Center: {x: 0, y: 0, z: 0}
   m_Radius: 0.5412364
   m_SuspensionSpring:
-    spring: 40000
-    damper: 2000
+    spring: 35000
+    damper: 15000
     targetPosition: 0.4
   m_SuspensionDistance: 0.2
   m_ForceAppPointDistance: 0.1
