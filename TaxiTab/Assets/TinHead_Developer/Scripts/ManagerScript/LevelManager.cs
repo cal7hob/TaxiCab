@@ -107,16 +107,9 @@ namespace TinHead_Developer
 
         void Start()
         {
-            EventManager.StartGame();
+			ConsoliAds.Instance.HideBanner ();
+       //     EventManager.StartGame();
 
-        }
-
-        void Update()
-        {
-            //if (CurrentTime <= 0)
-            //{
-            //    GameOver.Instance.EnableGameOverText();
-            //}
         }
         public void ActivateLevel()
         {
@@ -125,6 +118,7 @@ namespace TinHead_Developer
             ChangeDayNighy(GameManager.Instance.level);
             EventManager.StatusEvent("Instruction");
             TotalTime  = CurrentTime = GameManager.Instance.Gameplaylevel[GameManager.Instance.level].time;
+			CurrentPlayer = GameManager.Instance.SelectedCar;
             //   EventManager.GameStatus += CheckGameStatus;
 
         }
@@ -201,13 +195,17 @@ namespace TinHead_Developer
             CurrentTime -= 1;
             minutes = CurrentTime / 60;
             seconds = CurrentTime % 60;
-
-           TimeUI.text=string.Format("{0:00}:{1:00}", minutes, seconds);
+			if (minutes != 0 && seconds != 0) {
+				TimeUI.text = string.Format ("{0:00}:{1:00}", minutes, seconds);
+			} else {
+				CancelInvoke ();
+				Invoke("GameFailed", 2);
+			}
         }
 
         public void ShowAd(int ID)
         {
-            
+			ConsoliAds.Instance.ShowInterstitial (ID);
         }
 
         IEnumerator GameComplete()
@@ -215,43 +213,64 @@ namespace TinHead_Developer
             yield return new WaitForSeconds(2.0f);
             InGameUi.LevelComplete.SetActive(true);
             HUDManager.Instance.CalculateStars();
+			PlaySound ("LevelComplete");
+			PlayerPrefsX.SetBool("Level" + (GameManager.Instance.level + 2).ToString(), true);
 
             if (GameManager.Instance.IsCoinBased)
             {
 
             }
-            //    ShowAd();
+                ShowAd(3);
         }
         public void GameFailed()
         {
+			PlaySound ("LevelFailed");
+			Time.timeScale = 0.001f;
             InGameUi.LevelFailed.SetActive(true);
 
-            //    ShowAd();
+                ShowAd(4);
         }
         public void GamePaused()
         {
+			PlaySound ("Click");
+			Time.timeScale = 0.001f;
             InGameUi.LevelPaused.SetActive(true);
 
-            //    ShowAd();
+               ShowAd(2);
         }
         public void Cinematic()
         {
 
         }
 		public void Restart(){
+			PlaySound ("Click");
+
+			Time.timeScale = 1;
+			GameManager.Instance.Play (3);
 
 
 		}
 		public void Resume(){
+			PlaySound ("Click");
 
-
-		}
-		public void Pause(){
+			Time.timeScale = 1.0f;
+			InGameUi.LevelPaused.SetActive(false);
 
 		}
 		public void MainMenu(){
+			PlaySound ("Click");
+
+			GameManager.Instance.Play (0);
+		}
+		public void NextLevel(){
+			PlaySound ("Click");
+			Time.timeScale = 1;
+			GameManager.Instance.level += 1;
+			GameManager.Instance.Play (3);
 
 		}
-
+		public void PlaySound(string Sound){
+			SoundManager.Instance.PlaySound (Sound);
+		}
     }
 }

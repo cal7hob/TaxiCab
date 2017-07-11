@@ -21,6 +21,7 @@ public class DropPoint : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+			TinHead_Developer.SoundManager.Instance.PlaySound ("Drop");
             pedestrian.GetComponent<PassengerMovement>().DropPassenger();
             Car = other.GetComponent<PlayerManager>();
             Car.StopCar();

@@ -1,0 +1,446 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &106334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 431350}
+  - component: {fileID: 11427928}
+  m_Layer: 0
+  m_Name: SupersonicEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &109454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 401394}
+  - component: {fileID: 11438466}
+  m_Layer: 0
+  m_Name: GAv4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &148564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 431210}
+  - component: {fileID: 11465836}
+  m_Layer: 0
+  m_Name: ConsoliAds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &168648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 412652}
+  - component: {fileID: 11428960}
+  m_Layer: 0
+  m_Name: AppTrackerIOS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &189002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 443750}
+  - component: {fileID: 11493210}
+  m_Layer: 0
+  m_Name: Leadbolt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &198380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 430450}
+  - component: {fileID: 11481450}
+  m_Layer: 0
+  m_Name: AppTrackerAndroid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &401394
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 431210}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &412652
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 431210}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &430450
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.029855967, y: 1.0036066, z: -8.537224}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 431210}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &431210
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 443750}
+  - {fileID: 431350}
+  - {fileID: 430450}
+  - {fileID: 412652}
+  - {fileID: 401394}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &431350
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106334}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 431210}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &443750
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 431210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11427928
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 106334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f4eb146ea5d49d9bf6a02a5a231c14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11428960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acd5152548f62459c92d7db7e3fff509, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11438466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d19fcca4c3864274a625305eece3f48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidTrackingCode: hithere
+  IOSTrackingCode: UA-78558939-1
+  otherTrackingCode: hithere
+  productName: Consoliads Sample
+  bundleIdentifier: com.socialink.consoliads
+  bundleVersion: 
+  dispatchPeriod: 5
+  sampleFrequency: 100
+  logLevel: 3
+  anonymizeIP: 0
+  UncaughtExceptionReporting: 0
+  sendLaunchEvent: 0
+  dryRun: 0
+  sessionTimeout: 1800
+  enableAdId: 0
+--- !u!114 &11465836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3338a8d2d07526941aaa1f0730c08288, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  userSignature: d28f864283a4c1facbdd020aecd2e0a9
+  productName: City crazy taxi simulator 2017
+  platform: 41
+  bundleIdentifier: com.malistic.city.crazy.taxi.simulator
+  bundleVersion: 1.0
+  supportEmail: malistic.studio@gmail.com
+  hideAds: 0
+  ShowLog: 0
+  ChildDirected: 0
+  sceneList:
+  - sceneType: 1
+    interstitialAndVideo:
+      skipFirst: 0
+      networkList: 00000000
+      failOver: 9
+    rewardedVideo:
+      skipFirst: 0
+      networkList: 
+      failOver: 0
+    native:
+      enabled: 0
+      adType: 27
+      position: 0
+      width: 0
+      height: 0
+    banner:
+      enabled: 1
+      adType: 28
+      size: 5
+      position: 0
+  - sceneType: 2
+    interstitialAndVideo:
+      skipFirst: 0
+      networkList: 0a000000
+      failOver: 0
+    rewardedVideo:
+      skipFirst: 0
+      networkList: 
+      failOver: 0
+    native:
+      enabled: 0
+      adType: 27
+      position: 0
+      width: 0
+      height: 0
+    banner:
+      enabled: 0
+      adType: 28
+      size: 0
+      position: 0
+  - sceneType: 6
+    interstitialAndVideo:
+      skipFirst: 0
+      networkList: 09000000
+      failOver: 0
+    rewardedVideo:
+      skipFirst: 0
+      networkList: 
+      failOver: 0
+    native:
+      enabled: 0
+      adType: 27
+      position: 0
+      width: 0
+      height: 0
+    banner:
+      enabled: 0
+      adType: 28
+      size: 0
+      position: 0
+  - sceneType: 4
+    interstitialAndVideo:
+      skipFirst: 0
+      networkList: 0a000000
+      failOver: 0
+    rewardedVideo:
+      skipFirst: 0
+      networkList: 
+      failOver: 0
+    native:
+      enabled: 0
+      adType: 27
+      position: 0
+      width: 0
+      height: 0
+    banner:
+      enabled: 0
+      adType: 28
+      size: 0
+      position: 0
+  - sceneType: 5
+    interstitialAndVideo:
+      skipFirst: 0
+      networkList: 0a000000
+      failOver: 0
+    rewardedVideo:
+      skipFirst: 0
+      networkList: 
+      failOver: 0
+    native:
+      enabled: 0
+      adType: 27
+      position: 0
+      width: 0
+      height: 0
+    banner:
+      enabled: 0
+      adType: 28
+      size: 0
+      position: 0
+  adIDList:
+    gpMoreAppsURL: 
+    gpRateUsURL: 
+    gpConsoliadsAppKey: 3b4767fab737099cc34b3094bd93a460
+    gpChartboostAppID: 
+    gpChartboostAppSignature: 
+    gpAdmobAppID: ca-app-pub-7739463982771382~3725683757
+    gpAdmobBannerAdUnitID: ca-app-pub-7739463982771382/5202416955
+    gpAdmobInterstitialAdUnitID: ca-app-pub-7739463982771382/6679150153
+    gpAdmobRewardedVideoAdUnitID: 
+    gpAdmobNativeAdUnitID: 
+    gpLeadboltAppKey: 
+    gpHeyzapID: 
+    gpRevmobMediaID: 
+    gpUnityadsAppID: 1477023
+    gpAdcolonyAppID: app95cdbf085cf14112a4
+    gpAdcolonyZoneID: vz9bfc41219b844515b0
+    gpSupersonicAppKey: 
+    gpApplovinID: 
+    amConsoliadsAppKey: 
+    amChartboostAppID: 
+    amChartboostAppSignature: 
+    amAdmobAppID: 
+    amAdmobBannerAdUnitID: 
+    amAdmobInterstitialAdUnitID: 
+    amAdmobRewardedVideoAdUnitID: 
+    amAdmobNativeAdUnitID: 
+    amLeadboltAppKey: 
+    amHeyzapID: 
+    amRevmobMediaID: 
+    amUnityadsAppID: 
+    amAdcolonyAppID: 
+    amAdcolonyZoneID: 
+    amSupersonicAppKey: 
+    amApplovinID: 
+    asMoreAppsURL: 
+    asRateUsURL: 
+    asConsoliadsAppKey: 
+    asChartboostAppID: 
+    asChartboostAppSignature: 
+    asAdmobAppID: 
+    asAdmobBannerAdUnitID: 
+    asAdmobInterstitialAdUnitID: 
+    asAdmobRewardedVideoAdUnitID: 
+    asAdmobNativeAdUnitID: 
+    asLeadboltAppKey: 
+    asHeyzapID: 
+    asRevmobMediaID: 
+    asUnityadsAppID: 
+    asAdcolonyAppID: 
+    asAdcolonyZoneID: 
+    asSupersonicAppKey: 
+    asApplovinID: 
+  FirebaseAnalytics: 0
+  GoogleAnalytics: 0
+  FlurryAnalytics: 0
+  gpAnalyticsTrackingCode: 
+  asAnalyticsTrackingCode: 
+  gpFlurryAppKey: 
+  asFlurryAppKey: 
+  googleAnalytics: {fileID: 11438466}
+  leadbolt: {fileID: 11493210}
+--- !u!114 &11481450
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13d7a56636da14b72bf754cb25bf5175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11493210
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab52974baf2bd545b0229273d90c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialized: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 148564}
+  m_IsPrefabParent: 1

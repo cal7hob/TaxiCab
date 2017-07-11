@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 4297123778807702}
   - component: {fileID: 108609584289075152}
   - component: {fileID: 114722808908330576}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head Light
   m_TagString: Untagged
   m_Icon: {fileID: 571167235653111936, guid: 0000000000000000d000000000000000, type: 0}
@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 4986825312531644}
   - component: {fileID: 108624832113885802}
   - component: {fileID: 114673203659464448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Head Light
   m_TagString: Untagged
   m_Icon: {fileID: 571167235653111936, guid: 0000000000000000d000000000000000, type: 0}

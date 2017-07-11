@@ -19,10 +19,10 @@ public class PickUpPoint : MonoBehaviour {
     {
         if (other.gameObject.tag == "Player")
         {
+			TinHead_Developer.SoundManager.Instance.PlaySound ("PickUp");
             other.GetComponent<PlayerManager>().StopCar();
             //pedestrianAnimator.SetBool("IsRunning", true);
             pedestrian.GetComponent<PassengerMovement>().PickupPassenger();
-
             Debug.Log("hi");
             PassengerManager.Instance.DroppingPoint.SetActive(true);
             PassengerManager.Instance.DroppingPoint.GetComponent<bl_MiniMapItem>().ShowItem();

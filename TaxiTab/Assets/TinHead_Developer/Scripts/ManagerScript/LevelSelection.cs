@@ -15,7 +15,9 @@ namespace TinHead_Developer {
 
         void Start() {
             SoundManager.Instance.PlaySound("LevelSelection");
+
             LoadLockers();
+			ConsoliAds.Instance.ShowInterstitial (1);
     }
 
       public void LoadLockers()
@@ -27,11 +29,11 @@ namespace TinHead_Developer {
 
                     if (PlayerPrefsX.GetBool("Level" + (i + 1).ToString()))
                     {
-                        Lock[i].gameObject.SetActive(true);
+						Lock[i].gameObject.SetActive(false);
                     }
                     else
                     {
-                        Lock[i].gameObject.SetActive(false);
+						Lock[i].gameObject.SetActive(true);
                     }
                 }
             }

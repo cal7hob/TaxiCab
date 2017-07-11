@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using TinHead_Developer;
 using UnityEngine;
 using UnityEngine.AI;
-
+using TinHead_Developer;
 public class PadestrianController : MonoBehaviour {
     private Animator thisAnimator;
     private Patrol thisPatrol;
@@ -20,9 +20,6 @@ public class PadestrianController : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
-	}
 
     void OnTriggerEnter(Collider other)
     {
@@ -39,7 +36,7 @@ public class PadestrianController : MonoBehaviour {
         thisNavMeshAgent.enabled = false;
         thisAnimator.SetBool("Death_b", true);
         thisCollider.enabled = false;
-
+		TinHead_Developer.SoundManager.Instance.PlaySound ("PersonDead");
     }
     void revive()
     {

@@ -1,0 +1,12 @@
+{
+    "group":        "AppTracker",
+    "patches":      []
+    "libs":         [],
+    "frameworks":   ["AdSupport.framework:weak","AVFoundation.framework","CoreMedia.framework","CoreTelephony.framework","StoreKit.framework","SystemConfiguration.framework","libz.tbd", "AppTracker.framework"],
+    "frameworksearchpaths": [],
+    "headerpaths":  [],
+    "files":        [],
+    "folders":      [],
+    "excludes":     [],
+    "buildSettings":{}
+}

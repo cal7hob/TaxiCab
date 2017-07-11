@@ -14,7 +14,9 @@ namespace TinHead_Developer
 
         void Start()
         {
+			ConsoliAds.Instance.ShowInterstitial (1);
 
+			SoundManager.Instance.PlaySound ("CarSelection");
         }
 
         // Update is called once per frame

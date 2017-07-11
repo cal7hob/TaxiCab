@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -46,15 +46,96 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarAudio.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarController.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Mudguard.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
-     <Compile Include="Assets\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\Plugins\AdColony.cs" />
+     <Compile Include="Assets\Plugins\Android\RevMobAndroid.cs" />
+     <Compile Include="Assets\Plugins\Android\RevMobAndroidBanner.cs" />
+     <Compile Include="Assets\Plugins\Android\RevMobAndroidFullscreen.cs" />
+     <Compile Include="Assets\Plugins\Android\RevMobAndroidLink.cs" />
+     <Compile Include="Assets\Plugins\AppLovin\AppLovin.cs" />
+     <Compile Include="Assets\Plugins\AppLovin\AppLovinEvents.cs" />
+     <Compile Include="Assets\Plugins\AppTrackerAndroid\AppTrackerAndroid.cs" />
+     <Compile Include="Assets\Plugins\AppTrackerIOS\AppTrackerIOS.cs" />
+     <Compile Include="Assets\Plugins\FlurryAnalytics\Flurry.cs" />
+     <Compile Include="Assets\Plugins\FlurryAnalytics\FlurryAndroid.cs" />
+     <Compile Include="Assets\Plugins\FlurryAnalytics\FlurryIOS.cs" />
+     <Compile Include="Assets\Plugins\FlurryAnalytics\IAnalytics.cs" />
+     <Compile Include="Assets\Plugins\FlurryAnalytics\MonoSingleton.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\Attributes\AdvertiserOptInAttribute.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\Attributes\RangedTooltipAttribute.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\Attributes\TooltipAttribute.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\Field.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\Fields.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\GAIHandler.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\GoogleAnalyticsAndroidV4.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\GoogleAnalyticsMPV3.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\GoogleAnalyticsV4.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\GoogleAnalyticsiOSV3.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\AppViewHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\EventHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\ExceptionHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\HitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\ItemHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\SocialHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\TimingHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\GoogleAnalyticsV4\HitBuilders\TransactionHitBuilder.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZBannerAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZDemographics.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZIncentivizedAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZInterstitialAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZShowOptions.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HZVideoAd.cs" />
+     <Compile Include="Assets\Plugins\Heyzap\HeyzapAds.cs" />
+     <Compile Include="Assets\Plugins\IRevMobListener.cs" />
+     <Compile Include="Assets\Plugins\RevMob.cs" />
+     <Compile Include="Assets\Plugins\RevMobBanner.cs" />
+     <Compile Include="Assets\Plugins\RevMobFullscreen.cs" />
+     <Compile Include="Assets\Plugins\RevMobLink.cs" />
+     <Compile Include="Assets\Plugins\RevMobPopup.cs" />
+     <Compile Include="Assets\Plugins\iOS\RevMobIOS.cs" />
+     <Compile Include="Assets\Plugins\iOS\RevMobIOSBanner.cs" />
+     <Compile Include="Assets\Plugins\iOS\RevMobIOSFullscreen.cs" />
+     <Compile Include="Assets\Plugins\iOS\RevMobIosLink.cs" />
+     <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
+     <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Plugins\Android\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\SimpleTown\Changelog.txt" />
+     <None Include="Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\iTS\Demo\Source Assets\SchoolGirlPack\README.txt" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\Supersonic\AndroidManifest.xml" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\iTS\Demo\Source Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\SimplePeople\Changelog.txt" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\SimpleRacer\_FX\UnlitVertexColour_Alpha.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\RealisticCarControllerV3\LICENSE - Read Me!.txt" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\RoadData.xml" />
+     <None Include="Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\iTS\Demo\Source Assets\Vehicles\Vehicle1\README.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\GlowShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -76,8 +157,17 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
- <Reference Include="Mono.Cecil">
- <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <Reference Include="iTSMain">
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/Plugins/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

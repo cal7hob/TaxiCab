@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -39,10 +39,10 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>E:/Program Files/Unity2/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>E:/Program Files/Unity2/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +55,119 @@
      <Compile Include="Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
      <Compile Include="Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
      <Compile Include="Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Consoliads\Chartboost\Examples\ChartboostExample\ChartboostExample.cs" />
+     <Compile Include="Assets\Consoliads\Chartboost\Scripts\CBExternal.cs" />
+     <Compile Include="Assets\Consoliads\Chartboost\Scripts\CBInPlay.cs" />
+     <Compile Include="Assets\Consoliads\Chartboost\Scripts\CBJSON.cs" />
+     <Compile Include="Assets\Consoliads\Chartboost\Scripts\CBSettings.cs" />
+     <Compile Include="Assets\Consoliads\Chartboost\Scripts\Chartboost.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\AdLoader.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\AdPosition.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\AdRequest.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\AdSize.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\BannerView.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\Gender.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\InterstitialAd.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\Reward.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\DummyClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\IBannerClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\IInterstitialClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Common\Utils.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\Android\Utils.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\AdLoaderClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\BannerClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\CustomNativeTemplateClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\Externs.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\InterstitialClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\MonoPInvokeCallbackAttribute.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\NativeExpressAdClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\RewardBasedVideoAdClient.cs" />
+     <Compile Include="Assets\Consoliads\GoogleMobileAds\Platforms\iOS\Utils.cs" />
+     <Compile Include="Assets\Consoliads\Sample\Sample.cs" />
+     <Compile Include="Assets\Consoliads\Sample\Splash.cs" />
+     <Compile Include="Assets\Consoliads\Sample\UIManager.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\AdNetwork.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\AdNetworkFactory.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAAdColony.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAAdIDList.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAAdmob.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAAdmobInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAAdmobNativeAd.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAAdmobRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAApplovinInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAApplovinRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CABannerSettings.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAChartBoost.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAChartBoostMoreApps.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAChartBoostRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAConstants.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAFirebase.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAHeyzapAdManager.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAHeyzapInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAHeyzapVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAInterstitialAndVideoSettings.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CALeadbolt.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CALeadboltInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CALeadboltRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CALogManager.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CANativeAdSettings.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CARevmobAdManager.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CARevmobFullScreen.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CARevmobPopup.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CARevmobRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CARevmobVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CARewardedVideoSettings.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAScene.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAStartAppInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CASupersonicInterstitial.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CASupersonicManager.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CASupersonicOfferwall.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CASupersonicRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAUnityAds.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAUnityAdsRewardedVideo.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\CAWrapper.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\ConsoliAds.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\ServerConfig.cs" />
+     <Compile Include="Assets\Consoliads\Scripts\SimpleJSON.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\AndroidAgent.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\Supersonic.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\SupersonicConfig.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\SupersonicError.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\SupersonicEvents.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\SupersonicIAgent.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\SupersonicJSON.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\SupersonicPlacement.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\UnsupportedPlatformAgent.cs" />
+     <Compile Include="Assets\Consoliads\Supersonic\Scripts\General\iOSAgent.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\FPSWalkerEnhanced.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Player\SmoothMouseLook.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxChanger.cs" />
+     <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
      <Compile Include="Assets\PadestrianController.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCHoodCamera.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCResetScene.cs" />
@@ -222,11 +335,16 @@
      <Compile Include="Assets\iTS\Traffic System\Scripts\Main\TSTrafficLight.cs" />
      <Compile Include="Assets\iTS\Traffic System\Scripts\Main\TSTrafficLightGroupManager.cs" />
      <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
+     <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
      <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Plugins\Android\res\values\values.xml" />
+     <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\SimpleTown\Changelog.txt" />
      <None Include="Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
      <None Include="Assets\iTS\Demo\Source Assets\SchoolGirlPack\README.txt" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\Supersonic\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\iTS\Demo\Source Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
@@ -234,12 +352,15 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\SimplePeople\Changelog.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\SimpleRacer\_FX\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -249,34 +370,48 @@
      <None Include="Assets\Cartoon FX\CartoonFX2 Readme.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\iTS\Demo\Source Assets\Vehicles\Vehicle1\README.txt" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\GlowShader.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
- <HintPath>E:/Program Files/Unity2/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="iTSMain">
- <HintPath>C:/Users/darkx/Documents/UnityClones/TaxiCabb/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/Plugins/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7730FB16-E322-154C-3082-18526A61C841}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

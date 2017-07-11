@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.unity3d.player" android:installLocation="preferExternal" android:theme="@android:style/Theme.NoTitleBar" android:versionCode="1" android:versionName="1.0">
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+  <uses-sdk android:minSdkVersion="9" />
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+  <application android:icon="@drawable/app_icon" android:label="@string/app_name"
+               android:debuggable="true"
+               android:allowBackup="false"
+    >
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+
+    <activity android:name="com.unity3d.player.UnityPlayerActivity" android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+    </activity>
+
+    <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false">
+    </receiver>
+    <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER"/>
+      </intent-filter>
+    </receiver>
+    <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+    <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+    <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+              android:exported="true" >
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+      </intent-filter>
+    </receiver>
+
+    <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+             android:enabled="true">
+      <intent-filter>
+        <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+      </intent-filter>
+    </receiver>
+    <service android:name="com.google.android.gms.analytics.AnalyticsService"
+        android:enabled="true"
+        android:exported="false"/>
+
+    <!-- Optionally, register CampaignTrackingReceiver and CampaignTrackingService to enable
+             installation campaign reporting -->
+    <receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+      </intent-filter>
+    </receiver>
+    <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+
+    <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+              android:name="com.apptracker.android.module.AppModuleActivity"
+              android:hardwareAccelerated="false">
+    </activity>
+    <activity android:name="com.revmob.FullscreenActivity"
+              android:theme="@android:style/Theme.Translucent"
+              android:configChanges="keyboardHidden|orientation">
+    </activity>
+
+    <!-- APPLOVIN: sdk key from dashboard-->
+    <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
+    <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+
+    <!-- NOTE: You must include these three activity specifications for AdColony. -->
+    <activity android:name="com.jirbo.adcolony.AdColonyOverlay"
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+    <activity android:name="com.jirbo.adcolony.AdColonyFullscreen"
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+    <activity android:name="com.jirbo.adcolony.AdColonyBrowser"
+      android:configChanges="keyboardHidden|orientation|screenSize"
+      android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+
+  </application>
+</manifest>
