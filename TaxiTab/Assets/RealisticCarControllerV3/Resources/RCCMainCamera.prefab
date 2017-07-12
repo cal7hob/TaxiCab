@@ -173,11 +173,11 @@ MonoBehaviour:
   playerCar: {fileID: 0}
   pivot: {fileID: 162682}
   cameraMode: 0
-  distance: 8
-  height: 5
+  distance: 5
+  height: 2.5
   targetFieldOfView: 60
-  minimumFOV: 70
-  maximumFOV: 80
+  minimumFOV: 50
+  maximumFOV: 70
   maximumTilt: 15
   maxShakeAmount: 0.01
 --- !u!124 &12445236
