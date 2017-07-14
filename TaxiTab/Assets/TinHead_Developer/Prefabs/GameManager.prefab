@@ -319,7 +319,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764970156843772}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 79.3, y: -1.03, z: -63.9}
+  m_LocalPosition: {x: 79.3, y: -3.5, z: -63.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4150385593795556}
@@ -443,7 +443,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1711025826062286}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.176906, y: -3.4010735, z: -7.7529807}
+  m_LocalPosition: {x: 10.176906, y: -3.5, z: -7.7529807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4774877040178034}
@@ -456,7 +456,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1452877260075642}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.176906, y: -3.4010735, z: -7.7529807}
+  m_LocalPosition: {x: 10.176906, y: -3.5, z: -7.7529807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4399687280316940}
@@ -469,7 +469,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1173409729997658}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.176906, y: -3.4010735, z: -7.7529807}
+  m_LocalPosition: {x: 10.176906, y: -3.5, z: -7.7529807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4723211432367654}
@@ -497,7 +497,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1958156481930806}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 80.9, y: -3.4010735, z: -58.8}
+  m_LocalPosition: {x: 80.9, y: -3.5, z: -58.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4159081104507552}
@@ -572,7 +572,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1469620102715778}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.176906, y: -3.4010735, z: -7.7529807}
+  m_LocalPosition: {x: 10.176906, y: -3.5, z: -7.7529807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4457352650858202}
@@ -676,13 +676,13 @@ MonoBehaviour:
     Coins: 700
     LevelLocked: 1
   IsLockedBasedGame: 1
-  LevelSelectionLockCoinBased: 1
+  LevelSelectionLockCoinBased: 0
   SelectedCar: 0
   GameContainsRewardedVideo: 0
   IsCoinBased: 1
   TotalScene: 6
   level: 0
-  CurrentScene: 0
+  CurrentScene: 3
   Scenes:
   - {fileID: 1977765946225154, guid: 2fa6f9bec6050684bad9540a3880bc4e, type: 2}
   - {fileID: 1415476918733722, guid: 29bd51fe6cd3f004b9b3f5dbf05dcdb8, type: 2}

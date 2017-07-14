@@ -169,6 +169,7 @@
      <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxChanger.cs" />
      <Compile Include="Assets\FarlandSkies\Demo\Scripts\Skybox\SkyboxRotator.cs" />
      <Compile Include="Assets\PadestrianController.cs" />
+     <Compile Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\Models\Buzzer\MoveBuzzer.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCHoodCamera.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCResetScene.cs" />
      <Compile Include="Assets\RealisticCarControllerV3\Scripts\Demo Scene Scripts\RCCWheelCamera.cs" />
@@ -298,6 +299,7 @@
      <Compile Include="Assets\TinHead_Developer\Scripts\EditorScripts\LevelManagerEditor.cs" />
      <Compile Include="Assets\TinHead_Developer\Scripts\InGameScripts\MainMenuController.cs" />
      <Compile Include="Assets\TinHead_Developer\Scripts\InGameScripts\MalisticArchitecture.cs" />
+     <Compile Include="Assets\TinHead_Developer\Scripts\InGameScripts\Rotate.cs" />
      <Compile Include="Assets\TinHead_Developer\Scripts\InGameScripts\SingletonPattern.cs" />
      <Compile Include="Assets\TinHead_Developer\Scripts\ManagerScript\ButtonBinder.cs" />
      <Compile Include="Assets\TinHead_Developer\Scripts\ManagerScript\EventManager.cs" />
@@ -337,6 +339,7 @@
      <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
      <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
      <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\Additive.shader" />
      <None Include="Assets\Plugins\Android\res\values\values.xml" />
      <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Guidelines.txt" />
@@ -344,11 +347,13 @@
      <None Include="Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
      <None Include="Assets\iTS\Demo\Source Assets\SchoolGirlPack\README.txt" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\ProDrawCallOptimizer\VersionHistory.txt" />
      <None Include="Assets\Plugins\Android\Supersonic\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\iTS\Demo\Source Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\README TRIAL.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\SimplePeople\Changelog.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
@@ -361,6 +366,7 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
      <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\LaserScope.shader" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -374,7 +380,9 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\InterlacePatternAdditive.shader" />
      <None Include="Assets\GlowShader.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

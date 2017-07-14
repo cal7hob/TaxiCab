@@ -12,11 +12,13 @@ namespace TinHead_Developer {
         public GameObject UnlockLevelTab;
         public Text CurrentSelectedLevelCoin;
         public Text UnlockMessage;
-
+		public GameObject [] LevelStars;
+		public  Sprite Star;
         void Start() {
             SoundManager.Instance.PlaySound("LevelSelection");
 
             LoadLockers();
+			LoadStars ();
 			ConsoliAds.Instance.ShowInterstitial (1);
     }
 
@@ -38,6 +40,13 @@ namespace TinHead_Developer {
                 }
             }
         }
+		public void LoadStars(){
+			for (int i = 0; i < LevelStars.Length; i++) {
+				for (int j = 0; j < PlayerPrefs.GetInt("Level" + (i + 1)); j++) {
+					LevelStars [i].transform.GetChild(j).GetComponent<Image> ().sprite = Star;
+				}
+			}
+		}
 
         // Update is called once per frame
      public void LevelSelected(int LevelSelected)

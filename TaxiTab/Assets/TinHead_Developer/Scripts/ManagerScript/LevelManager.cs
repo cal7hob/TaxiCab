@@ -37,7 +37,7 @@ namespace TinHead_Developer
         public GameObject MiniMap;
 
         private int pendestrianKilled;
-
+		public GameObject[] LevelCompleteStars;
         public int PendestrianKilled
         {
             get
@@ -213,12 +213,17 @@ namespace TinHead_Developer
             yield return new WaitForSeconds(2.0f);
             InGameUi.LevelComplete.SetActive(true);
             HUDManager.Instance.CalculateStars();
+
 			PlaySound ("LevelComplete");
 			PlayerPrefsX.SetBool("Level" + (GameManager.Instance.level + 2).ToString(), true);
-
+			PlayerPrefs.SetInt("Level" + (GameManager.Instance.level + 2).ToString(), HUDManager.Instance.stars);
+			for (int i = 0; i < HUDManager.Instance.stars; i++) {
+				LevelCompleteStars [i].SetActive (true);
+				yield return new WaitForSeconds (1.0f);
+			}
             if (GameManager.Instance.IsCoinBased)
             {
-
+				//
             }
                 ShowAd(3);
         }

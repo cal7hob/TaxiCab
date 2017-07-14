@@ -100,9 +100,13 @@ namespace TinHead_Developer
                     PlayerPrefsX.SetBool("Level" + (i + 1).ToString(), true);
                 }
             }
+			for (int i = 0; i <TotalScene; i++)
+			{
+				PlayerPrefs.SetInt("Level" + (i + 1).ToString(), 0);
+			}
+
             Preferences.Instance.firsttime = false;
         }
-
 
     }
 }

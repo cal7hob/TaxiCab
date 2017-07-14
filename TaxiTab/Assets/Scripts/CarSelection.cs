@@ -11,12 +11,14 @@ namespace TinHead_Developer
         public GameObject[] Cars;
         int movement = 0;
         public Camera Cam;
-
+		public GameObject [] CarsSelection;
         void Start()
         {
-			ConsoliAds.Instance.ShowInterstitial (1);
 
 			SoundManager.Instance.PlaySound ("CarSelection");
+			CarsSelection [0].SetActive (true);
+			ConsoliAds.Instance.ShowInterstitial (1);
+
         }
 
         // Update is called once per frame
@@ -45,7 +47,9 @@ namespace TinHead_Developer
 
             if (movement < Cars.Length - 1)
             {
+				CarsSelection [movement].SetActive (false);
                 movement++;
+				CarsSelection [movement].SetActive (true);
             }
 
         }
@@ -53,7 +57,11 @@ namespace TinHead_Developer
         {
             if (movement > 0)
             {
+				CarsSelection [movement].SetActive (false);
+
                 movement--;
+				CarsSelection [movement].SetActive (true);
+
             }
         }
     }

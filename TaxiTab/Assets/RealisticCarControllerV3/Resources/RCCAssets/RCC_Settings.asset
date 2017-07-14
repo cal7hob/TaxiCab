@@ -38,7 +38,7 @@ MonoBehaviour:
   units: 0
   uiType: 0
   useTelemetry: 0
-  useAccelerometerForSteering: 1
+  useAccelerometerForSteering: 0
   useSteeringWheelForSteering: 0
   UIButtonSensitivity: 3
   UIButtonGravity: 5

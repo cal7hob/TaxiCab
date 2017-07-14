@@ -51,6 +51,7 @@
      <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
      <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
      <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\Additive.shader" />
      <None Include="Assets\Plugins\Android\res\values\values.xml" />
      <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Guidelines.txt" />
@@ -58,11 +59,13 @@
      <None Include="Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
      <None Include="Assets\iTS\Demo\Source Assets\SchoolGirlPack\README.txt" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\ProDrawCallOptimizer\VersionHistory.txt" />
      <None Include="Assets\Plugins\Android\Supersonic\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\iTS\Demo\Source Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\README TRIAL.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\SimplePeople\Changelog.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
@@ -75,6 +78,7 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
      <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\LaserScope.shader" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -88,7 +92,9 @@
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\InterlacePatternAdditive.shader" />
      <None Include="Assets\GlowShader.shader" />
+     <None Include="Assets\ProDrawCallOptimizer\README.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -157,6 +163,9 @@
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
  <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/Plugins/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="ProDrawCallOptimizerDLL">
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/ProDrawCallOptimizer/Scripts/Editor/ProDrawCallOptimizerDLL.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
