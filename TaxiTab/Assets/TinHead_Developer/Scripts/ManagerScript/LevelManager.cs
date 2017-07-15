@@ -60,6 +60,7 @@ namespace TinHead_Developer
         {
             Debug.Log("Time Decrement Called");
             //seconds -= 10;
+            Debug.Log(CurrentTime);
             CurrentTime -= 10;
             TimeUI.GetComponent<Animator>().SetTrigger("isTimeDecrement");
            
@@ -201,10 +202,11 @@ namespace TinHead_Developer
             }
             else if (minutes == 0 && seconds == 0)
             {
+                CancelInvoke();
                 Invoke("GameFailed", 2);
             }
-            else
-                CancelInvoke();
+            //else
+            //    CancelInvoke();
 
             //else
             //{
