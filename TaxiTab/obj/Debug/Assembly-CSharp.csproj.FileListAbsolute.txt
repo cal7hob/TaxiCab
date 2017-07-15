@@ -94,3 +94,7 @@ C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.dll
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.pdb
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

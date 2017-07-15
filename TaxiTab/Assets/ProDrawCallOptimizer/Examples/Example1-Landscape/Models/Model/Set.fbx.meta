@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 491f0457f73ed445db66b112efd94de4
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: geometry_0
     100002: geometry_1
@@ -480,6 +480,12 @@ ModelImporter:
     100948: Ramp_parent002
     100950: Ramp_parent003
     100952: Ramp_parent01
+    100954: ramp_001_frame_MeshPart0
+    100956: ramp_001_frame_MeshPart1
+    100958: ramp_002_frame_MeshPart0
+    100960: ramp_002_frame_MeshPart1
+    100962: ramp_003_frame_MeshPart0
+    100964: ramp_003_frame_MeshPart1
     400000: geometry_0
     400002: geometry_1
     400004: geometry_10
@@ -957,6 +963,12 @@ ModelImporter:
     400948: Ramp_parent002
     400950: Ramp_parent003
     400952: Ramp_parent01
+    400954: ramp_001_frame_MeshPart0
+    400956: ramp_001_frame_MeshPart1
+    400958: ramp_002_frame_MeshPart0
+    400960: ramp_002_frame_MeshPart1
+    400962: ramp_003_frame_MeshPart0
+    400964: ramp_003_frame_MeshPart1
     2300000: geometry_0
     2300002: geometry_1
     2300004: geometry_10
@@ -1425,6 +1437,12 @@ ModelImporter:
     2300930: ramp_003_wood_Detached37
     2300932: ramp_003_wood_Detached38
     2300934: ramp_003_wood_Detached39
+    2300936: ramp_001_frame_MeshPart0
+    2300938: ramp_001_frame_MeshPart1
+    2300940: ramp_002_frame_MeshPart0
+    2300942: ramp_002_frame_MeshPart1
+    2300944: ramp_003_frame_MeshPart0
+    2300946: ramp_003_frame_MeshPart1
     3300000: geometry_0
     3300002: geometry_1
     3300004: geometry_10
@@ -1893,6 +1911,12 @@ ModelImporter:
     3300930: ramp_003_wood_Detached37
     3300932: ramp_003_wood_Detached38
     3300934: ramp_003_wood_Detached39
+    3300936: ramp_001_frame_MeshPart0
+    3300938: ramp_001_frame_MeshPart1
+    3300940: ramp_002_frame_MeshPart0
+    3300942: ramp_002_frame_MeshPart1
+    3300944: ramp_003_frame_MeshPart0
+    3300946: ramp_003_frame_MeshPart1
     4300000: ramp_001_frame
     4300002: ramp_001_wood
     4300004: geometry_0
@@ -2361,6 +2385,12 @@ ModelImporter:
     4300930: polySurface3_Detached01
     4300932: polySurface3_Detached02
     4300934: polySurface3_Detached03
+    4300936: ramp_001_frame_MeshPart0
+    4300938: ramp_001_frame_MeshPart1
+    4300940: ramp_002_frame_MeshPart0
+    4300942: ramp_002_frame_MeshPart1
+    4300944: ramp_003_frame_MeshPart0
+    4300946: ramp_003_frame_MeshPart1
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -2370,11 +2400,19 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
     animationCompression: 0
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations: []
@@ -2389,30 +2427,39 @@ ModelImporter:
     generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 0
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 0
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

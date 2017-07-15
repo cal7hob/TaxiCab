@@ -195,12 +195,22 @@ namespace TinHead_Developer
             CurrentTime -= 1;
             minutes = CurrentTime / 60;
             seconds = CurrentTime % 60;
-			if (minutes != 0 && seconds != 0) {
-				TimeUI.text = string.Format ("{0:00}:{1:00}", minutes, seconds);
-			} else {
-				CancelInvoke ();
-				Invoke("GameFailed", 2);
-			}
+            if (minutes != 0 && seconds != 0)
+            {
+                TimeUI.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+            }
+            else if (minutes == 0 && seconds == 0)
+            {
+                Invoke("GameFailed", 2);
+            }
+            else
+                CancelInvoke();
+
+            //else
+            //{
+            //    CancelInvoke();
+            //    Invoke("GameFailed", 2);
+            //}
         }
 
         public void ShowAd(int ID)

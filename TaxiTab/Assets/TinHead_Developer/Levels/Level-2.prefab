@@ -2091,6 +2091,7 @@ MonoBehaviour:
   dropPoint: {fileID: 4032353547369396}
   DropFootPath: {fileID: 4995623558175324}
   target: {fileID: 0}
+  ParticalFx: {fileID: 1815760268557324, guid: 1af1691ab796a654c865d7be313f2929, type: 2}
 --- !u!114 &114848060528235712
 MonoBehaviour:
   m_ObjectHideFlags: 1

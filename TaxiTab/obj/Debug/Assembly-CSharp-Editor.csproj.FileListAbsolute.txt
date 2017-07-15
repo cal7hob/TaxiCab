@@ -170,7 +170,14 @@ C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Purchasing.xml
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.VR.xml
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.VR.xml
-C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-UnityScript-Editor-firstpass.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\ProDrawCallOptimizerDLL.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
