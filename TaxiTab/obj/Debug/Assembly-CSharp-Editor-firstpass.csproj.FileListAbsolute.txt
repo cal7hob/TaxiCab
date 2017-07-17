@@ -120,3 +120,5 @@ C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEng
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColorEditor.dll

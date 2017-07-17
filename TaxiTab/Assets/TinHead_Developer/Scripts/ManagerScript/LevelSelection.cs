@@ -64,6 +64,11 @@ namespace TinHead_Developer {
 				NExt.SetActive (true);
 			}
 
+            else if (PlayerPrefsX.GetBool("Level" + LevelSelected)  == false)
+            {
+                NExt.SetActive(false);
+            }
+
 			else if (GameManager.Instance.IsCoinBased && GameManager.Instance.LevelSelectionLockCoinBased)
             {
                 CurrentSelectedLevel = LevelSelected-1;
