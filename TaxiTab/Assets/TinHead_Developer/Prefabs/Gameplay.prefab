@@ -85397,7 +85397,10 @@ MonoBehaviour:
     Cinematic: {fileID: 0}
     HelpScreen: {fileID: 1677652978191408}
   MiniMap: {fileID: 1530689725591716}
-  LevelCompleteStars: []
+  LevelCompleteStars:
+  - {fileID: 1501819652616912}
+  - {fileID: 1042778873180208}
+  - {fileID: 1174227770663824}
 --- !u!114 &114684845512813954
 MonoBehaviour:
   m_ObjectHideFlags: 1

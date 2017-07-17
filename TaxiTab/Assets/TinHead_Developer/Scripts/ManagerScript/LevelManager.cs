@@ -237,7 +237,10 @@ namespace TinHead_Developer
 
 			PlaySound ("LevelComplete");
 			PlayerPrefsX.SetBool("Level" + (GameManager.Instance.level + 2).ToString(), true);
-			PlayerPrefs.SetInt("Level" + (GameManager.Instance.level + 2).ToString(), HUDManager.Instance.stars);
+			if (PlayerPrefs.GetInt ("Level" + (GameManager.Instance.level + 1))< HUDManager.Instance.stars  ) {
+				PlayerPrefs.SetInt("Level" + (GameManager.Instance.level + 1).ToString(), HUDManager.Instance.stars);
+				Preferences.Instance.TotalStars = Preferences.Instance.TotalStars+(HUDManager.Instance.stars -PlayerPrefs.GetInt ("Level" + (GameManager.Instance.level + 1)));
+			}
 			for (int i = 0; i < HUDManager.Instance.stars; i++) {
 				LevelCompleteStars [i].SetActive (true);
 				yield return new WaitForSeconds (1.0f);

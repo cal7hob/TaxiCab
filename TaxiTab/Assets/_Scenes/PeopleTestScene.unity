@@ -151,7 +151,7 @@ Prefab:
     - target: {fileID: 224036493345864240, guid: b76810b896a842b4bad628e0aab72099,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 37.200005
+      value: 37.2
       objectReference: {fileID: 0}
     - target: {fileID: 1048334253463382, guid: b76810b896a842b4bad628e0aab72099, type: 2}
       propertyPath: m_IsActive
@@ -8164,20 +8164,6 @@ Prefab:
     - target: {fileID: 4254164633935398, guid: 12b8d1910a68b4e43955e00ea04d19e4, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1026991684560842, guid: 12b8d1910a68b4e43955e00ea04d19e4, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114888044996818036, guid: 12b8d1910a68b4e43955e00ea04d19e4,
-        type: 2}
-      propertyPath: CurrentScene
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114888044996818036, guid: 12b8d1910a68b4e43955e00ea04d19e4,
-        type: 2}
-      propertyPath: Gameplaylevel.Array.data[0].time
-      value: 120
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 12b8d1910a68b4e43955e00ea04d19e4, type: 2}

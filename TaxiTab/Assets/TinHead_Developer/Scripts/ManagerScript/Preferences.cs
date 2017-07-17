@@ -13,6 +13,7 @@ namespace TinHead_Developer
         private int _ads = 0;
         private int _isRate = 0;
         private bool _FirstTime =true;
+		private int _totalStars=0;
         public static Preferences Instance
         {
             get
@@ -35,8 +36,9 @@ namespace TinHead_Developer
             _level = PlayerPrefs.GetInt("level", 1);
             _coins = PlayerPrefs.GetInt("coins", 0);
             _rateUs = PlayerPrefs.GetInt("rateUs", 1);
-            _ads = PlayerPrefs.GetInt("ads", 0);
+            _ads    = PlayerPrefs.GetInt("ads", 0);
             _FirstTime = PlayerPrefsX.GetBool("FirstTime",true);
+			_totalStars= PlayerPrefs.GetInt("_totalStars",0);
         }
 
         void Save()
@@ -46,6 +48,7 @@ namespace TinHead_Developer
             PlayerPrefs.SetInt("coins", _coins);
             PlayerPrefs.SetInt("rateUs", _rateUs);
             PlayerPrefs.SetInt("ads", _ads);
+			PlayerPrefs.SetInt("_totalStars", _totalStars);
             PlayerPrefsX.SetBool("FirstTime", _FirstTime);
             PlayerPrefs.Save();
         }
@@ -97,5 +100,12 @@ namespace TinHead_Developer
             get { return _ads; }
             set { _ads = value; Save(); }
         }
+
+		public int TotalStars
+		{
+			get { return _totalStars; }
+			set { _totalStars = value; Save(); }
+		}
+
     }
 }

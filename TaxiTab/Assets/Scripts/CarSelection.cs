@@ -12,9 +12,12 @@ namespace TinHead_Developer
         int movement = 0;
         public Camera Cam;
 		public GameObject [] CarsSelection;
+		public int[] StarsForUnlock;
+		public GameObject PlayButton;
+		public GameObject Lock;
         void Start()
         {
-
+			
 			SoundManager.Instance.PlaySound ("CarSelection");
 			CarsSelection [0].SetActive (true);
 			ConsoliAds.Instance.ShowInterstitial (1);
@@ -49,6 +52,14 @@ namespace TinHead_Developer
             {
 				CarsSelection [movement].SetActive (false);
                 movement++;
+
+				if (Preferences.Instance.TotalStars >= StarsForUnlock [movement]) {
+					PlayButton.SetActive (true);
+					Lock.SetActive (false);
+				} else {
+					PlayButton.SetActive (false);
+					Lock.SetActive (true);
+				}
 				CarsSelection [movement].SetActive (true);
             }
 
@@ -60,6 +71,13 @@ namespace TinHead_Developer
 				CarsSelection [movement].SetActive (false);
 
                 movement--;
+				if (Preferences.Instance.TotalStars >= StarsForUnlock [movement]) {
+					PlayButton.SetActive (true);
+					Lock.SetActive (false);
+				} else {
+					PlayButton.SetActive (false);
+					Lock.SetActive (true);
+				}
 				CarsSelection [movement].SetActive (true);
 
             }

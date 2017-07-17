@@ -98,6 +98,7 @@ namespace TinHead_Developer
                 else
                 {
                     PlayerPrefsX.SetBool("Level" + (i + 1).ToString(), true);
+					Debug.Log(PlayerPrefsX.GetBool("Level" + (i + 1).ToString()));
                 }
             }
 			for (int i = 0; i <TotalScene; i++)

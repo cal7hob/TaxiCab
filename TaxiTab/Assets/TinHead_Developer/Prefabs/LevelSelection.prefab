@@ -2866,6 +2866,7 @@ MonoBehaviour:
   - {fileID: 1809945837026542}
   - {fileID: 1465764111754438}
   Star: {fileID: 21300000, guid: 72393d70d025f448aa0dad37b1c612f7, type: 3}
+  NExt: {fileID: 1816374069579812}
 --- !u!114 &114320042760695626
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -14,8 +14,10 @@ namespace TinHead_Developer {
         public Text UnlockMessage;
 		public GameObject [] LevelStars;
 		public  Sprite Star;
+		public GameObject NExt;
         void Start() {
             SoundManager.Instance.PlaySound("LevelSelection");
+			PlayerPrefsX.SetBool("Level1", true);
 
             LoadLockers();
 			LoadStars ();
@@ -32,10 +34,13 @@ namespace TinHead_Developer {
                     if (PlayerPrefsX.GetBool("Level" + (i + 1).ToString()))
                     {
 						Lock[i].gameObject.SetActive(false);
+						Debug.Log(PlayerPrefsX.GetBool("Level" + (i + 1).ToString()));
                     }
                     else
                     {
 						Lock[i].gameObject.SetActive(true);
+						Debug.Log(PlayerPrefsX.GetBool("Level" + (i + 1).ToString()));
+
                     }
                 }
             }
@@ -51,12 +56,14 @@ namespace TinHead_Developer {
         // Update is called once per frame
      public void LevelSelected(int LevelSelected)
         {
-            if (PlayerPrefsX.GetBool("Level" + LevelSelected))
-            {
-                Debug.Log(PlayerPrefsX.GetBool("Level" + LevelSelected));
-                CurrentSelectedLevel = LevelSelected-1;
-                GameManager.Instance.level = CurrentSelectedLevel;
-            }
+			Debug.Log (PlayerPrefsX.GetBool ("Level" + LevelSelected));
+			if (PlayerPrefsX.GetBool ("Level" + LevelSelected)) {
+				
+				CurrentSelectedLevel = LevelSelected - 1;
+				GameManager.Instance.level = CurrentSelectedLevel;
+				NExt.SetActive (true);
+			}
+
 			else if (GameManager.Instance.IsCoinBased && GameManager.Instance.LevelSelectionLockCoinBased)
             {
                 CurrentSelectedLevel = LevelSelected-1;
@@ -91,7 +98,9 @@ namespace TinHead_Developer {
 
         public void LoadScene(int Scene)
         {
-            GameManager.Instance.Play(Scene);
+			if (PlayerPrefsX.GetBool ("Level" + (CurrentSelectedLevel + 1).ToString ())) {
+				GameManager.Instance.Play (Scene);
+			}
         }
             
 
