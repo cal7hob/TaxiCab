@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace TinHead_Developer
 {
@@ -15,13 +16,15 @@ namespace TinHead_Developer
 		public int[] StarsForUnlock;
 		public GameObject PlayButton;
 		public GameObject Lock;
+		public Text TotalStars;
+		public Text RequiredStars;
         void Start()
         {
 			
 			SoundManager.Instance.PlaySound ("CarSelection");
 			CarsSelection [0].SetActive (true);
 			ConsoliAds.Instance.ShowInterstitial (1);
-
+			TotalStars.text = "x"+Preferences.Instance.TotalStars.ToString ();
         }
 
         // Update is called once per frame
@@ -59,10 +62,10 @@ namespace TinHead_Developer
 				} else {
 					PlayButton.SetActive (false);
 					Lock.SetActive (true);
+					RequiredStars.text = "Require " + StarsForUnlock [movement] + " Stars"; 
 				}
 				CarsSelection [movement].SetActive (true);
             }
-
         }
         public void PreviousCar()
         {
@@ -77,6 +80,7 @@ namespace TinHead_Developer
 				} else {
 					PlayButton.SetActive (false);
 					Lock.SetActive (true);
+					RequiredStars.text = "Require " + StarsForUnlock [movement] + " Stars"; 
 				}
 				CarsSelection [movement].SetActive (true);
 

@@ -1,6 +1,5 @@
 ﻿using UnityEngine.UI;
 using UnityEngine;
-using UnityEditor;
 
 namespace TinHead_Developer
 {

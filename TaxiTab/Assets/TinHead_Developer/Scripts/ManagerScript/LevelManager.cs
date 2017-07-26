@@ -109,6 +109,7 @@ namespace TinHead_Developer
         void Start()
         {
 			ConsoliAds.Instance.HideBanner ();
+			SoundManager.Instance.PlaySound ("GamePlay");
        //     EventManager.StartGame();
 
         }

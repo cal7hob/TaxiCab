@@ -39,10 +39,10 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -95,24 +95,37 @@
      <Compile Include="Assets\Plugins\iOS\RevMobIOSBanner.cs" />
      <Compile Include="Assets\Plugins\iOS\RevMobIOSFullscreen.cs" />
      <Compile Include="Assets\Plugins\iOS\RevMobIosLink.cs" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\RealisticCarControllerV3\Scripts\Skidmarks.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\Screenshot Creator\changes.txt" />
      <None Include="Assets\Plugins\Android\ChartboostSDK\AndroidManifest.xml" />
      <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\Additive.shader" />
+     <None Include="Assets\AmplifyColor\Resources\MaskBlend.shader" />
      <None Include="Assets\Plugins\Android\res\values\values.xml" />
      <None Include="Assets\Plugins\Android\Heyzap\AndroidManifest.xml" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Guidelines.txt" />
      <None Include="Assets\SimpleTown\Changelog.txt" />
      <None Include="Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
      <None Include="Assets\iTS\Demo\Source Assets\SchoolGirlPack\README.txt" />
+     <None Include="Assets\BuildReport\BuildReportToolOptions.xml" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ImageEffects\Readme.txt" />
      <None Include="Assets\ProDrawCallOptimizer\VersionHistory.txt" />
      <None Include="Assets\Plugins\Android\Supersonic\AndroidManifest.xml" />
+     <None Include="Assets\AmplifyColor\Resources\Blend.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\AmplifyColor\Resources\BlendCache.shader" />
      <None Include="Assets\iTS\Demo\Source Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\AmplifyColor\Resources\Mask.shader" />
+     <None Include="Assets\AmplifyColor\Samples\Check out the full LUT Package.txt" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\README TRIAL.txt" />
+     <None Include="Assets\AmplifyColor\Readme.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\SimplePeople\Changelog.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
@@ -120,17 +133,27 @@
      <None Include="Assets\SimpleRacer\_FX\UnlitVertexColour_Alpha.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\AmplifyColor\Resources\ProcessOnly.shader" />
+     <None Include="Assets\BuildReport\Scripts\Editor\FuzzyString\License.txt" />
      <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\AmplifyColor\Resources\DepthMask.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Common.cginc" />
      <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+     <None Include="Assets\BuildReport\VERSION.txt" />
      <None Include="Assets\Plugins\AppLovin\AppLovin Readme.txt" />
      <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\LaserScope.shader" />
+     <None Include="Assets\AmplifyColor\Resources\DepthMaskBlend.shader" />
+     <None Include="Assets\AmplifyColor\Resources\Base.shader" />
      <None Include="Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\RealisticCarControllerV3\LICENSE - Read Me!.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\BuildReport\README.txt" />
      <None Include="Assets\RoadData.xml" />
      <None Include="Assets\Cartoon FX\CartoonFX2 Readme.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -138,45 +161,51 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\RealisticCarControllerV3\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\RealisticCarControllerV3\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
      <None Include="Assets\ProDrawCallOptimizer\Examples\Example2-CustomShaders\CustomShaders\InterlacePatternAdditive.shader" />
      <None Include="Assets\GlowShader.shader" />
      <None Include="Assets\ProDrawCallOptimizer\README.txt" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
- <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="AmplifyColor">
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/AmplifyColor/Plugins/AmplifyColor.dll</HintPath>
  </Reference>
  <Reference Include="iTSMain">
- <HintPath>C:/Users/Anjum/Documents/Unity Projects/TaxiCabb/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/iTS/Traffic System/Scripts/Main/iTSMain.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>C:/Users/Anjum/Documents/Unity Projects/TaxiCabb/TaxiTab/Assets/Plugins/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/Plugins/UnityAds/UnityEngine.Advertisements.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Mono.Cecil">
- <HintPath>C:/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
+ <Reference Include="DarkArtsStudios.ScreenshotCreator.Runtime">
+ <HintPath>D:/City crazy taxi simulator/TaxiTab/Assets/Screenshot Creator/DarkArtsStudios.ScreenshotCreator.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
- <HintPath>C:/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Common">
- <HintPath>C:/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
