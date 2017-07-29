@@ -122,3 +122,5 @@ C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSha
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColorEditor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Tizen.Extensions.dll

@@ -263,7 +263,7 @@ namespace TinHead_Developer
         public void GamePaused()
         {
 			PlaySound ("Click");
-			Time.timeScale = 0.001f;
+			Time.timeScale = 1f; //Level Paused Changing here (Anjum)
             InGameUi.LevelPaused.SetActive(true);
 
                ShowAd(2);

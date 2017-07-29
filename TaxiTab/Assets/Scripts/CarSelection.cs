@@ -25,6 +25,13 @@ namespace TinHead_Developer
 			CarsSelection [0].SetActive (true);
 			ConsoliAds.Instance.ShowInterstitial (1);
 			TotalStars.text = "x"+Preferences.Instance.TotalStars.ToString ();
+
+            if (CarsSelection[0].activeInHierarchy)
+            {
+                Lock.SetActive(false);
+            }
+            else
+                Lock.SetActive(true);
         }
 
         // Update is called once per frame
