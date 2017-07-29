@@ -282,11 +282,10 @@ namespace TinHead_Developer
 		}
 		public void Resume(){
 			PlaySound ("Click");
-
 			Time.timeScale = 1.0f;
 			InGameUi.LevelPaused.SetActive(false);
-
 		}
+
 		public void MainMenu(){
 			PlaySound ("Click");
 
@@ -295,7 +294,8 @@ namespace TinHead_Developer
 		public void NextLevel(){
 			PlaySound ("Click");
 			Time.timeScale = 1;
-			GameManager.Instance.level += 1;
+			GameManager.Instance.level ++;  //Next Level by clicking nextBtn
+            Debug.Log("Next Level Number" +GameManager.Instance.level);
 			GameManager.Instance.Play (3);
 
 		}

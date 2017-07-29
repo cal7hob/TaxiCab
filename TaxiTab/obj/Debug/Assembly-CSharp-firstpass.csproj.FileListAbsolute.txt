@@ -35,10 +35,14 @@ C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-firstpass.pdb
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\iTSMain.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Mono.Cecil.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\nunit.framework.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Analytics.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.dll
@@ -66,7 +70,3 @@ C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEng
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-firstpass.pdb
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll

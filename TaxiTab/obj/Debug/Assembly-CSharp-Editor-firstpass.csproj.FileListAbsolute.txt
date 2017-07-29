@@ -60,6 +60,9 @@ C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-Editor-firstpass.pdb
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColorEditor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\iTSEditor.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\iTSMain.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Mono.Cecil.dll
@@ -77,6 +80,7 @@ C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEdi
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Networking.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Purchasing.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.TestRunner.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Tizen.Extensions.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.TreeEditor.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.UI.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.VR.dll
@@ -120,7 +124,3 @@ C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEng
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojResolveAssemblyReference.cache
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp-Editor-firstpass.pdb
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColorEditor.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.Tizen.Extensions.dll

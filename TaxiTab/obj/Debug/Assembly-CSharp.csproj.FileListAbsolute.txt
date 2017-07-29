@@ -98,12 +98,17 @@ C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
 C:\Users\darkx\Documents\UnityClones\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\iTSMain.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\Mono.Cecil.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\nunit.framework.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Advertisements.Editor.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Analytics.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.dll
@@ -129,10 +134,5 @@ C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\nunit.fr
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.Analytics.xml
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEngine.VR.xml
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.dll
 C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\obj\Debug\Assembly-CSharp.pdb
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\AmplifyColor.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Common.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
-C:\Users\Anjum\Documents\Unity Projects\TaxiCabb\TaxiTab\Temp\bin\Debug\DarkArtsStudios.ScreenshotCreator.Runtime.dll
